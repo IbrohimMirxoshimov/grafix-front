@@ -21,11 +21,11 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-xl px-2 py-1 rounded">
-                G
+                П
               </div>
               <div>
-                <h3 className="text-lg font-bold">Grafix</h3>
-                <p className="text-sm text-gray-400">Полиграфия в Ташкенте</p>
+                <h3 className="text-lg font-bold">Полиграфи</h3>
+                <p className="text-sm text-gray-400">{companyInfo.tagline}</p>
               </div>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
@@ -96,6 +96,7 @@ export default function Footer() {
                 <Phone className="h-4 w-4 mt-1 text-blue-400 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300 text-sm">{companyInfo.phone}</p>
+                  <p className="text-gray-400 text-xs">WhatsApp: {companyInfo.whatsapp}</p>
                 </div>
               </div>
               
@@ -110,6 +111,7 @@ export default function Footer() {
                 <MapPin className="h-4 w-4 mt-1 text-blue-400 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300 text-sm">{companyInfo.address}</p>
+                  <p className="text-gray-400 text-xs">{companyInfo.metro}</p>
                 </div>
               </div>
               
@@ -151,7 +153,7 @@ export default function Footer() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm">
-              © {currentYear} Grafix. Все права защищены.
+              © {currentYear} Полиграфи. Все права защищены.
             </p>
             <div className="flex space-x-6">
               <Link href="/privacy" className="text-gray-400 hover:text-blue-400 transition-colors text-sm">

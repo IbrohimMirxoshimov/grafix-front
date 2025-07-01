@@ -22,31 +22,30 @@ export default function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center bg-blue-600/20 backdrop-blur-sm border border-blue-400/30 rounded-full px-4 py-2 mb-6">
             <CheckCircle className="h-4 w-4 mr-2 text-green-400" />
-            <span className="text-sm font-medium">Работаем с 2020 года • 500+ довольных клиентов</span>
+            <span className="text-sm font-medium">Работаем с 2005 года • 3000+ довольных клиентов</span>
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Профессиональная
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent block">
-              полиграфия
+              Печать тиража
             </span>
-            в Ташкенте
+            в день заказа
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Создаем качественную печатную продукцию для вашего бизнеса. 
-            От дизайна до готового результата — всё в одном месте.
+            Оперативная полиграфия в Москве по доступным ценам. 
+            Собственный штат дизайнеров и современное оборудование.
           </p>
 
           {/* Features List */}
           <div className="flex flex-wrap justify-center gap-6 mb-10 text-sm md:text-base">
             {[
-              'Быстрое выполнение заказов',
-              'Собственная дизайн-студия',
-              'Современное оборудование',
-              'Доставка по Ташкенту'
+              'Печать тиража в день заказа',
+              'Собственный штат дизайнеров',
+              'Оплата онлайн и безналичный расчет',
+              'Оперативная доставка по Москве'
             ].map((feature, index) => (
               <div key={index} className="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <CheckCircle className="h-4 w-4 mr-2 text-green-400 flex-shrink-0" />
@@ -84,20 +83,20 @@ export default function HeroSection() {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">2000+</div>
+              <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">15000+</div>
               <div className="text-sm text-gray-300">Проектов</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">500+</div>
+              <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">3000+</div>
               <div className="text-sm text-gray-300">Клиентов</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">5+</div>
+              <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">19+</div>
               <div className="text-sm text-gray-300">Лет опыта</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">24/7</div>
-              <div className="text-sm text-gray-300">Поддержка</div>
+              <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">1 день</div>
+              <div className="text-sm text-gray-300">Срочная печать</div>
             </div>
           </div>
         </div>

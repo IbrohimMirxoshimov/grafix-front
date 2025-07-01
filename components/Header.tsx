@@ -36,7 +36,7 @@ export default function Header() {
               </div>
               <div className="hidden md:flex items-center gap-1">
                 <MapPin className="h-3 w-3" />
-                <span>{companyInfo.address}</span>
+                <span>{companyInfo.metro}</span>
               </div>
             </div>
             <div className="hidden sm:block text-xs">
@@ -52,11 +52,11 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-2xl px-3 py-2 rounded-lg">
-              G
+              П
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Grafix</h1>
-              <p className="text-xs text-gray-600">Полиграфия в Ташкенте</p>
+              <h1 className="text-xl font-bold text-gray-900">Полиграфи</h1>
+              <p className="text-xs text-gray-600">{companyInfo.tagline}</p>
             </div>
           </Link>
 
@@ -93,7 +93,7 @@ export default function Header() {
           {/* CTA Button & Mobile Menu Toggle */}
           <div className="flex items-center gap-4">
             <Button asChild className="hidden md:inline-flex bg-blue-600 hover:bg-blue-700">
-              <Link href="/contact">Заказать консультацию</Link>
+              <Link href="/contact">Заказать расчет</Link>
             </Button>
 
             {/* Mobile Menu Button */}
@@ -157,7 +157,7 @@ export default function Header() {
             <div className="mt-4 pt-4 border-t">
               <Button asChild className="w-full bg-blue-600 hover:bg-blue-700">
                 <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
-                  Заказать консультацию
+                  Заказать расчет
                 </Link>
               </Button>
             </div>

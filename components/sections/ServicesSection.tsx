@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowRight, CreditCard, FileText, Book, Calendar, Monitor, Package, Tag, Paperclip, Clock } from 'lucide-react';
+import { ArrowRight, CreditCard, FileText, Book, Calendar, Monitor, Package, Tag, Paperclip, Clock, Utensils } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -15,6 +15,7 @@ const iconMap = {
   Package,
   Tag,
   Paperclip,
+  Utensils,
 };
 
 export default function ServicesSection() {
@@ -55,6 +56,13 @@ export default function ServicesSection() {
                         <IconComponent className="h-6 w-6 text-blue-600" />
                       </div>
                     </div>
+                    {service.urgent && (
+                      <div className="absolute top-4 right-4">
+                        <Badge variant="destructive" className="bg-red-500 text-white">
+                          Срочно
+                        </Badge>
+                      </div>
+                    )}
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
                     {service.title}
@@ -101,6 +109,31 @@ export default function ServicesSection() {
               </Card>
             );
           })}
+        </div>
+
+        {/* Urgent Services Highlight */}
+        <div className="mb-12">
+          <div className="bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-2xl p-8 md:p-12">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                🚀 Срочная печать в день заказа
+              </h3>
+              <p className="text-gray-600 max-w-2xl mx-auto">
+                Нужно срочно? Мы печатаем визитки, листовки и наклейки в день заказа!
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {services
+                .filter(service => service.urgent)
+                .map((service) => (
+                  <div key={service.id} className="bg-white rounded-xl p-6 shadow-md">
+                    <h4 className="font-bold text-lg mb-2">{service.title}</h4>
+                    <p className="text-red-600 font-semibold mb-2">{service.price}</p>
+                    <p className="text-sm text-gray-600">Готов: {service.deliveryTime}</p>
+                  </div>
+                ))}
+            </div>
+          </div>
         </div>
 
         {/* CTA Section */}

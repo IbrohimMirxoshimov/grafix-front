@@ -2,40 +2,41 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ subsets: ['latin', 'cyrillic'] });
 
 export const metadata: Metadata = {
-  title: 'Poligrafi - Полиграфия в Москве | Срочная печать визиток, брошюр, каталогов',
-  description: 'Профессиональная полиграфия в Москве с 2005 года. Срочная печать визиток, брошюр, листовок, каталогов. Скидка 15% на визитки от 1000 шт. Доставка по Москве. Звоните: 8 (495) 789-47-35',
-  keywords: 'типография москва, печать визиток, срочная печать, полиграфия на заказ, цифровая печать, офсетная печать, печать листовок, печать брошюр, печать буклетов, печать календарей, печать наклеек, дизайн полиграфии, доставка полиграфии, недорогая полиграфия',
-  authors: [{ name: 'Poligrafi' }],
-  creator: 'Poligrafi',
-  publisher: 'Poligrafi',
+  metadataBase: new URL('https://grafix.uz'),
+  title: 'Grafix - Полиграфия в Ташкенте | Печать визиток, брошюр, листовок',
+  description: 'Профессиональная полиграфия в Ташкенте с 2020 года. Качественная печать визиток, брошюр, листовок, баннеров. Быстрое выполнение заказов. Собственная дизайн-студия. Звоните: +998 78 150 50 50',
+  keywords: 'полиграфия ташкент, печать визиток, типография ташкент, печать листовок, брошюры, дизайн печать, граффикс, grafix, цифровая печать, офсетная печать, календари, баннеры, упаковка, наклейки',
+  authors: [{ name: 'Grafix' }],
+  creator: 'Grafix',
+  publisher: 'Grafix',
   robots: 'index, follow',
   openGraph: {
-    title: 'Poligrafi - Полиграфия в Москве | Срочная печать',
-    description: 'Профессиональная полиграфия в Москве с 2005 года. Срочная печать визиток, брошюр, листовок, каталогов. Скидка 15% на визитки от 1000 шт.',
-    url: 'https://poligrafi.com',
-    siteName: 'Poligrafi',
+    title: 'Grafix - Полиграфия в Ташкенте | Печать визиток, брошюр',
+    description: 'Профессиональная полиграфия в Ташкенте с 2020 года. Качественная печать визиток, брошюр, листовок, баннеров. Быстрое выполнение заказов.',
+    url: 'https://grafix.uz',
+    siteName: 'Grafix',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Poligrafi - Полиграфия в Москве',
+        alt: 'Grafix - Полиграфия в Ташкенте',
       },
     ],
-    locale: 'ru_RU',
+    locale: 'ru_UZ',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Poligrafi - Полиграфия в Москве',
-    description: 'Профессиональная полиграфия в Москве с 2005 года. Срочная печать визиток, брошюр, листовок, каталогов.',
+    title: 'Grafix - Полиграфия в Ташкенте',
+    description: 'Профессиональная полиграфия в Ташкенте с 2020 года. Качественная печать визиток, брошюр, листовок, баннеров.',
     images: ['/og-image.jpg'],
   },
   alternates: {
-    canonical: 'https://poligrafi.com',
+    canonical: 'https://grafix.uz',
   },
   verification: {
     google: 'your-google-verification-code',
@@ -64,24 +65,24 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "PrintingService",
-              "name": "Poligrafi",
-              "description": "Профессиональная полиграфия в Москве с 2005 года",
-              "url": "https://poligrafi.com",
-              "telephone": "+7-495-789-47-35",
-              "email": "[email protected]",
+              "name": "Grafix",
+              "description": "Профессиональная полиграфия в Ташкенте с 2020 года",
+              "url": "https://grafix.uz",
+              "telephone": "+998-78-150-50-50",
+              "email": "info@grafix.uz",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "ул. Шарикоподшипниковская, д. 13, стр. 46",
-                "addressLocality": "Москва",
-                "postalCode": "115088",
-                "addressCountry": "RU"
+                "streetAddress": "ул. Амира Темура, 108",
+                "addressLocality": "Ташкент",
+                "postalCode": "100000",
+                "addressCountry": "UZ"
               },
-              "openingHours": "Mo-Fr 10:00-18:00",
+              "openingHours": "Mo-Fr 09:00-19:00, Sa 10:00-16:00",
               "priceRange": "$$",
-              "foundingDate": "2005",
+              "foundingDate": "2020",
               "serviceArea": {
                 "@type": "City",
-                "name": "Москва"
+                "name": "Ташкент"
               },
               "hasOfferCatalog": {
                 "@type": "OfferCatalog",
@@ -107,8 +108,27 @@ export default function RootLayout({
                       "@type": "Service",
                       "name": "Печать листовок"
                     }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Широкоформатная печать"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Дизайн услуги"
+                    }
                   }
                 ]
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "500"
               }
             }),
           }}

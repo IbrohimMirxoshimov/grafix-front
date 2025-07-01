@@ -1,0 +1,422 @@
+{
+  "texts": [
+    "Акции",
+    "Портфолио",
+    "Контакты",
+    "О Компании",
+    "О Полиграфи",
+    "Вакансии",
+    "Новости",
+    "Отзывы",
+    "Вопрос-Ответ",
+    "Продукция",
+    "POS материалы",
+    "Листовки",
+    "Брошюры",
+    "Блокноты",
+    "Визитки",
+    "Буклеты",
+    "Меню для ресторанов",
+    "Дипломы и сертификаты",
+    "Дисконтные карты",
+    "Журналы",
+    "Календари",
+    "Каталоги",
+    "Книги",
+    "Наклейки, стикеры",
+    "Открытки",
+    "Пакеты",
+    "Папки",
+    "Конверты",
+    "Подарочные коробки",
+    "Корпоративные календари",
+    "Кубарики",
+    "Плакаты и постеры",
+    "Пластиковые карты",
+    "Рекламные материалы",
+    "Самокопирующиеся бланки",
+    "Сувениры",
+    "Бланки",
+    "Флаеры",
+    "Этикетки",
+    "Блокноты с логотипом",
+    "Коробки с логотипом",
+    "Наклейки с логотипом",
+    "Лифлеты",
+    "Все к выставке",
+    "Коробки",
+    "Обечайки",
+    "Шуберы",
+    "Свадебная полиграфия",
+    "Услуги",
+    "Цифровая печать",
+    "Офсетная печать",
+    "Широкоформатная печать",
+    "Печать на самоклеящейся пленке",
+    "Печать большого тиража",
+    "Тиснение",
+    "Вырубка",
+    "Брошюровка",
+    "Шелкография",
+    "Ламинирование",
+    "Твердый переплет книг",
+    "Дизайн меню для ресторанов и кафе",
+    "Дизайн полиграфии",
+    "Печать баннеров",
+    "Интерьерная печать",
+    "Клиентам",
+    "Как сделать заказ",
+    "Доставка и оплата",
+    "В помощь полиграфистам",
+    "Для агентств",
+    "Технические требования",
+    "Варианты бумаги",
+    "Адрес:",
+    "115088, Россия, г. Москва, ул. Шарикоподшипниковская, д. 13, стр. 46",
+    "Телефон:",
+    "8 (495) 789-47-35",
+    "График работы:",
+    "Пн-Пт с 10:00 до 18:00",
+    "E-mail:",
+    "[email protected]",
+    "WhatsApp",
+    "+79150678261",
+    "Принимаем к оплате:",
+    "Политика конфиденциальности",
+    "© Полиграфия.com, 2005-2025. Все права защищены.",
+    "Создание и",
+    "продвижение сайта"
+  ],
+  "links": [
+    {
+      "text": "Акции",
+      "link": "https://poligrafi.com/action/"
+    },
+    {
+      "text": "Портфолио",
+      "link": "https://poligrafi.com/portfolio/"
+    },
+    {
+      "text": "Контакты",
+      "link": "https://poligrafi.com/contact/"
+    },
+    {
+      "text": "О Компании",
+      "link": "https://poligrafi.com/company/"
+    },
+    {
+      "text": "О Полиграфи",
+      "link": "https://poligrafi.com/company/"
+    },
+    {
+      "text": "Вакансии",
+      "link": "https://poligrafi.com/company/vacancies/"
+    },
+    {
+      "text": "Новости",
+      "link": "https://poligrafi.com/company/news/"
+    },
+    {
+      "text": "Отзывы",
+      "link": "https://poligrafi.com/company/review/"
+    },
+    {
+      "text": "Вопрос-Ответ",
+      "link": "https://poligrafi.com/company/faq/"
+    },
+    {
+      "text": "Продукция",
+      "link": "https://poligrafi.com/catalog/"
+    },
+    {
+      "text": "POS материалы",
+      "link": "https://poligrafi.com/catalog/pos-materialy/"
+    },
+    {
+      "text": "Листовки",
+      "link": "https://poligrafi.com/catalog/listovki/"
+    },
+    {
+      "text": "Брошюры",
+      "link": "https://poligrafi.com/catalog/broshyury/"
+    },
+    {
+      "text": "Блокноты",
+      "link": "https://poligrafi.com/catalog/bloknoty/"
+    },
+    {
+      "text": "Визитки",
+      "link": "https://poligrafi.com/catalog/vizitki/"
+    },
+    {
+      "text": "Буклеты",
+      "link": "https://poligrafi.com/catalog/buklety/"
+    },
+    {
+      "text": "Меню для ресторанов",
+      "link": "https://poligrafi.com/catalog/menyu-dlya-restoranov/"
+    },
+    {
+      "text": "Дипломы и сертификаты",
+      "link": "https://poligrafi.com/catalog/diplomy-i-sertifikaty/"
+    },
+    {
+      "text": "Дисконтные карты",
+      "link": "https://poligrafi.com/catalog/diskontnye-karty/"
+    },
+    {
+      "text": "Журналы",
+      "link": "https://poligrafi.com/catalog/pechat-zhurnalov/"
+    },
+    {
+      "text": "Календари",
+      "link": "https://poligrafi.com/catalog/kalendari/"
+    },
+    {
+      "text": "Каталоги",
+      "link": "https://poligrafi.com/catalog/katalogi/"
+    },
+    {
+      "text": "Книги",
+      "link": "https://poligrafi.com/catalog/knigi/"
+    },
+    {
+      "text": "Наклейки, стикеры",
+      "link": "https://poligrafi.com/catalog/pechat-nakleek-i-stikerov/"
+    },
+    {
+      "text": "Открытки",
+      "link": "https://poligrafi.com/catalog/otkrytki-i-priglasheniya/"
+    },
+    {
+      "text": "Пакеты",
+      "link": "https://poligrafi.com/catalog/pakety/"
+    },
+    {
+      "text": "Папки",
+      "link": "https://poligrafi.com/catalog/papki/"
+    },
+    {
+      "text": "Конверты",
+      "link": "https://poligrafi.com/catalog/konverty/"
+    },
+    {
+      "text": "Подарочные коробки",
+      "link": "https://poligrafi.com/catalog/korobki-moskva/"
+    },
+    {
+      "text": "Корпоративные календари",
+      "link": "https://poligrafi.com/catalog/korporativnye-kalendari/"
+    },
+    {
+      "text": "Кубарики",
+      "link": "https://poligrafi.com/catalog/kubariki/"
+    },
+    {
+      "text": "Плакаты и постеры",
+      "link": "https://poligrafi.com/catalog/plakaty-i-postery/"
+    },
+    {
+      "text": "Пластиковые карты",
+      "link": "https://poligrafi.com/catalog/plastikovye-karty/"
+    },
+    {
+      "text": "Рекламные материалы",
+      "link": "https://poligrafi.com/catalog/reklamnye-materialy/"
+    },
+    {
+      "text": "Самокопирующиеся бланки",
+      "link": "https://poligrafi.com/catalog/samokopiruyushchiesya-blanki/"
+    },
+    {
+      "text": "Сувениры",
+      "link": "https://poligrafi.com/catalog/suveniry/"
+    },
+    {
+      "text": "Бланки",
+      "link": "https://poligrafi.com/catalog/firmennye-blanki/"
+    },
+    {
+      "text": "Флаеры",
+      "link": "https://poligrafi.com/catalog/flaery/"
+    },
+    {
+      "text": "Этикетки",
+      "link": "https://poligrafi.com/catalog/etiketki-i-birki/"
+    },
+    {
+      "text": "Блокноты с логотипом",
+      "link": "https://poligrafi.com/catalog/bloknoty-s-logotipom/"
+    },
+    {
+      "text": "Коробки с логотипом",
+      "link": "https://poligrafi.com/catalog/korobki-s-logotipom/"
+    },
+    {
+      "text": "Наклейки с логотипом",
+      "link": "https://poligrafi.com/catalog/nakleyki-s-logotipom/"
+    },
+    {
+      "text": "Лифлеты",
+      "link": "https://poligrafi.com/catalog/liflety/"
+    },
+    {
+      "text": "Все к выставке",
+      "link": "https://poligrafi.com/catalog/vse-k-vystavke/"
+    },
+    {
+      "text": "Коробки",
+      "link": "https://poligrafi.com/catalog/korobki/"
+    },
+    {
+      "text": "Обечайки",
+      "link": "https://poligrafi.com/catalog/obechayki/"
+    },
+    {
+      "text": "Шуберы",
+      "link": "https://poligrafi.com/catalog/shubery/"
+    },
+    {
+      "text": "Свадебная полиграфия",
+      "link": "https://poligrafi.com/catalog/svadebnaya-poligrafiya/"
+    },
+    {
+      "text": "Услуги",
+      "link": "https://poligrafi.com/services/"
+    },
+    {
+      "text": "Цифровая печать",
+      "link": "https://poligrafi.com/services/tsifrovaya-pechat-moskva/"
+    },
+    {
+      "text": "Офсетная печать",
+      "link": "https://poligrafi.com/services/ofsetnaya-pechat/"
+    },
+    {
+      "text": "Широкоформатная печать",
+      "link": "https://poligrafi.com/services/shirokoformatnaya-pechat-moskva/"
+    },
+    {
+      "text": "Печать на самоклеящейся пленке",
+      "link": "https://poligrafi.com/services/pechat-na-samokleyushcheysya-plenke/"
+    },
+    {
+      "text": "Печать большого тиража",
+      "link": "https://poligrafi.com/services/pechat-bolshogo-tirazha/"
+    },
+    {
+      "text": "Тиснение",
+      "link": "https://poligrafi.com/services/tisnenie/"
+    },
+    {
+      "text": "Вырубка",
+      "link": "https://poligrafi.com/services/vyrubka/"
+    },
+    {
+      "text": "Брошюровка",
+      "link": "https://poligrafi.com/services/broshyurovka/"
+    },
+    {
+      "text": "Шелкография",
+      "link": "https://poligrafi.com/services/shelkografiya/"
+    },
+    {
+      "text": "Ламинирование",
+      "link": "https://poligrafi.com/services/laminirovanie/"
+    },
+    {
+      "text": "Твердый переплет книг",
+      "link": "https://poligrafi.com/services/tverdyy-pereplet-knig/"
+    },
+    {
+      "text": "Дизайн меню для ресторанов и кафе",
+      "link": "https://poligrafi.com/services/dizayn-menyu-dlya-restoranov-i-kafe/"
+    },
+    {
+      "text": "Дизайн полиграфии",
+      "link": "https://poligrafi.com/services/dizayn-poligrafii/"
+    },
+    {
+      "text": "Печать баннеров",
+      "link": "https://poligrafi.com/services/pechat-bannerov-moskva/"
+    },
+    {
+      "text": "Интерьерная печать",
+      "link": "https://poligrafi.com/services/interernaya-pechat-moskva/"
+    },
+    {
+      "text": "Клиентам",
+      "link": "https://poligrafi.com/clients/zakazat/"
+    },
+    {
+      "text": "Как сделать заказ",
+      "link": "https://poligrafi.com/clients/zakazat/"
+    },
+    {
+      "text": "Доставка и оплата",
+      "link": "https://poligrafi.com/clients/oplata-i-dostavka/"
+    },
+    {
+      "text": "В помощь полиграфистам",
+      "link": "https://poligrafi.com/clients/v-pomoshch-poligrafistam/"
+    },
+    {
+      "text": "Для агентств",
+      "link": "https://poligrafi.com/clients/predlozhenie-dlya-agentstv/"
+    },
+    {
+      "text": "Технические требования",
+      "link": "https://poligrafi.com/clients/ttreb/"
+    },
+    {
+      "text": "Варианты бумаги",
+      "link": "https://poligrafi.com/clients/paper/"
+    },
+    {
+      "text": "8 (495) 789-47-35",
+      "link": "tel:+74957894735"
+    },
+    {
+      "text": "[email protected]",
+      "link": "https://poligrafi.com/cdn-cgi/l/email-protection#e696898a8f819487808fa696898a8f819487808fc885898b"
+    },
+    {
+      "text": "+79150678261",
+      "link": "https://web.whatsapp.com/send?phone=79150678261"
+    },
+    {
+      "text": "",
+      "link": "https://poligrafi.com/"
+    },
+    {
+      "text": "Политика конфиденциальности",
+      "link": "https://poligrafi.com/politica.html"
+    },
+    {
+      "text": "Создание ипродвижение сайта",
+      "link": "https://cinar.ru"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "https://poligrafi.com/local/templates/bas/img/logo_2025.png"
+    },
+    {
+      "alt": "",
+      "src": "https://poligrafi.com/local/templates/bas/img/pay1.png"
+    },
+    {
+      "alt": "",
+      "src": "https://poligrafi.com/local/templates/bas/img/pay2.png"
+    },
+    {
+      "alt": "",
+      "src": "https://poligrafi.com/local/templates/bas/img/pay3.png"
+    },
+    {
+      "alt": "",
+      "src": "https://poligrafi.com/local/templates/bas/img/pay4.png"
+    }
+  ]
+}

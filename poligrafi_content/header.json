@@ -1,0 +1,52 @@
+{
+  "texts": [
+    "Калькулятор",
+    "8 (495) 789-47-35",
+    "Заказать звонок",
+    "[email protected]",
+    "WhatsApp",
+    "0",
+    "Личный кабинет",
+    "Продолжить"
+  ],
+  "links": [
+    {
+      "text": "",
+      "link": "https://poligrafi.com/"
+    },
+    {
+      "text": "Калькулятор",
+      "link": "https://poligrafi.com/catalog/print-expert/?id=36300"
+    },
+    {
+      "text": "8 (495) 789-47-35",
+      "link": "tel:+74957894735"
+    },
+    {
+      "text": "Заказать звонок",
+      "link": "javascript:;"
+    },
+    {
+      "text": "[email protected]",
+      "link": "https://poligrafi.com/cdn-cgi/l/email-protection#c6b6a9aaafa1b4a7a0af86b6a9aaafa1b4a7a0afe8a5a9ab"
+    },
+    {
+      "text": "WhatsApp",
+      "link": "https://web.whatsapp.com/send?phone=79150678261"
+    },
+    {
+      "text": "0",
+      "link": "https://poligrafi.com/personal/cart/"
+    },
+    {
+      "text": "",
+      "link": "javascript:;"
+    }
+  ],
+  "images": [
+    {
+      "alt": "",
+      "src": "https://poligrafi.com/local/templates/bas/img/logo_2025.png"
+    }
+  ]
+}

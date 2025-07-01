@@ -1,0 +1,20 @@
+{
+  "texts": [
+    "'start_frame_cache_T9triU'",
+    "Подключаем reCAPTCHA v3 ОБЯЗАТЕЛЬНО",
+    "Оформить заказ",
+    "Скрытое поле для токена reCAPTCHA",
+    "Заказать",
+    "Нажимая кнопку, вы даете согласие на обработку",
+    "персональных данных",
+    ".",
+    "'end_frame_cache_T9triU'"
+  ],
+  "links": [
+    {
+      "text": "персональных данных",
+      "link": "https://poligrafi.com/politica.html"
+    }
+  ],
+  "images": []
+}

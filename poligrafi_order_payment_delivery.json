@@ -6,8 +6,8 @@
       {
         "title": "Сделайте звонок",
         "description": "Позвоните напрямую и получите консультацию",
-        "phone": "8 (495) 789-47-35",
-        "phone_link": "tel:+74957894735",
+        "phone": "+998 99 130-50-00",
+        "phone_link": "tel:+998991305000",
         "icon": "call"
       },
       {
@@ -20,7 +20,7 @@
       {
         "title": "Отправьте письмо на e-mail",
         "description": "Отправьте письмо с техническим заданием",
-        "email": "info@poligrafi.com",
+        "email": "info@grafix.uz",
         "processing_time": "15 мин",
         "processing_label": "Среднее время обработки:",
         "icon": "email"
@@ -35,7 +35,7 @@
       },
       {
         "title": "Приезжайте в офис",
-        "description": "м. Волгоградский Проспект / МЦК \"Дубровка\"",
+        "description": "г. Ташкент, Улица Турккургон",
         "contact_link": "/contact/",
         "icon": "map"
       }
@@ -80,7 +80,7 @@
   },
   "delivery": {
     "title": "Доставка",
-    "subtitle": "Доставка по Москве",
+    "subtitle": "Доставка по Ташкенту",
     "options": [
       {
         "type": "Легкие заказы",

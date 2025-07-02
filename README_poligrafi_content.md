@@ -1,14 +1,21 @@
-# Poligrafi.com Website Content - JSON Files
+# Grafix Tipografiya - Website Content JSON Files
 
-Bu fayllar poligrafi.com saytining asosiy sahifasidagi barcha kontentni mavzularga bo'lib JSON formatida saqlaydi.
+Bu fayllar Grafix tipografiya saytining asosiy sahifasidagi barcha kontentni mavzularga bo'lib JSON formatida saqlaydi.
+
+## Rasmlar Base URL:
+Barcha rasmlar uchun base URL: **https://www.poligrafi.com**
+
+Masalan:
+- `/upload/uf/07f/pos.svg` → `https://www.poligrafi.com/upload/uf/07f/pos.svg`
+- `/upload/resize_cache//779/270_270_2/image.jpg` → `https://www.poligrafi.com/upload/resize_cache//779/270_270_2/image.jpg`
 
 ## Yaratilgan JSON fayllar:
 
 ### 1. `poligrafi_company_info.json`
 **Kompaniya ma'lumotlari va aloqa ma'lumotlari**
-- Kompaniya nomi, slogani, tavsifi
-- Kontakt ma'lumotlari (telefon, email, WhatsApp)
-- Manzil va metro stantsiyasi
+- Kompaniya nomi: Grafix
+- Kontakt ma'lumotlari: +998 99 130-50-00, info@grafix.uz
+- Manzil: г. Ташкент, Улица Турккургон
 - Ish vaqti
 - Statistik ma'lumotlar (tajriba, buyurtmalar soni, mijozlar soni)
 
@@ -70,5 +77,8 @@ Bu JSON fayllar saytni qayta qurish yoki yangi loyiha uchun kontentni import qil
 - Barcha JSON fayllar yuqorida ko'rsatilganidek
 
 **Sana:** 2 Iyul 2025
-**Manba:** https://www.poligrafi.com
+**Manba:** https://www.poligrafi.com (moslashtirildi Grafix brendiga)
 **Format:** JSON, UTF-8 encoded
+**Brend:** Grafix Tipografiya
+**Manzil:** г. Ташкент, Улица Турккургон
+**Telefon:** +998 99 130-50-00

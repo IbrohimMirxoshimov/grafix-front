@@ -1,0 +1,48 @@
+{
+  "advantages": {
+    "title": "Типография Полиграфи",
+    "subtitle": "Преимущества нашей компании",
+    "items": [
+      {
+        "title": "Печать тиража в день заказа",
+        "description": "Выполнение заказов любого объема за минимальные сроки",
+        "icon": "/upload/iblock/6fe/6fe13d04c02716ecaa0a54049bf2af90.svg"
+      },
+      {
+        "title": "Собственный штат дизайнеров",
+        "description": "От корректировки макетов и до создания фирменного стиля",
+        "icon": "/upload/iblock/ce2/ce297d06bb428b3b5a2bdb4a1ad8427c.svg"
+      },
+      {
+        "title": "Оплата онлайн и безналичный расчет",
+        "description": "Оплатите онлайн и мы сразу же отправим заказ в печать",
+        "icon": "/upload/iblock/ffa/ffa7bf4009d3f3998b27fb80ea562633.svg"
+      },
+      {
+        "title": "Оперативная доставка по Москве",
+        "description": "Наши курьеры доставят заказ в любую точку Москвы",
+        "icon": "/upload/iblock/49c/49c2b76fdff7581cd4150ae1cc9555c7.svg"
+      }
+    ]
+  },
+  "promotions": [
+    {
+      "title": "СКИДКА 15% НА ПЕЧАТЬ ВИЗИТОК",
+      "description": "Скидка действует при заказе от 1 000 штук",
+      "link": "/catalog/vizitki/",
+      "image": "/upload/iblock/e04/33333.jpg"
+    }
+  ],
+  "complex_printing": [
+    {
+      "title": "ВСЕ К ВЫСТАВКЕ",
+      "link": "/catalog/vse-k-vystavke/",
+      "image": "/upload/iblock/49b/49b8e02b81d544f1174b5e795ba5569d.jpg"
+    },
+    {
+      "title": "ГОТОВИМ СВАДЬБУ ВМЕСТЕ",
+      "link": "/catalog/svadebnaya-poligrafiya/",
+      "image": "/upload/iblock/f05/f0516ece410aa9151afcf920b940a893.jpg"
+    }
+  ]
+}

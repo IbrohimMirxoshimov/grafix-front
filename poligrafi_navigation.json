@@ -1,0 +1,367 @@
+{
+  "navigation": {
+    "main_menu": [
+      {
+        "title": "Продукция",
+        "url": "/catalog/",
+        "children": [
+          {
+            "title": "POS материалы",
+            "url": "/catalog/pos-materialy/",
+            "image": "/upload/uf/07f/pos.svg"
+          },
+          {
+            "title": "Бланки",
+            "url": "/catalog/firmennye-blanki/",
+            "image": "/upload/uf/d53/firblank.svg"
+          },
+          {
+            "title": "Блокноты",
+            "url": "/catalog/bloknoty/",
+            "image": "/upload/uf/69d/bloknot.svg"
+          },
+          {
+            "title": "Блокноты с логотипом",
+            "url": "/catalog/bloknoty-s-logotipom/",
+            "image": "/upload/uf/19d/bloknot.svg"
+          },
+          {
+            "title": "Брошюры",
+            "url": "/catalog/broshyury/",
+            "image": "/upload/uf/002/broshur.svg"
+          },
+          {
+            "title": "Буклеты",
+            "url": "/catalog/buklety/",
+            "image": "/upload/uf/293/buklet.svg"
+          },
+          {
+            "title": "Визитки",
+            "url": "/catalog/vizitki/",
+            "image": "/upload/uf/78f/vizitki.svg"
+          },
+          {
+            "title": "Все к выставке",
+            "url": "/catalog/vse-k-vystavke/",
+            "image": "/upload/uf/031/expo.svg"
+          },
+          {
+            "title": "Дипломы и сертификаты",
+            "url": "/catalog/diplomy-i-sertifikaty/",
+            "image": "/upload/uf/2bb/diplom.svg"
+          },
+          {
+            "title": "Дисконтные карты",
+            "url": "/catalog/diskontnye-karty/",
+            "image": "/upload/uf/4c3/4c3e04fbd582d787e1646af0384569ec.svg"
+          },
+          {
+            "title": "Журналы",
+            "url": "/catalog/pechat-zhurnalov/",
+            "image": "/upload/uf/2d3/magazine.svg"
+          },
+          {
+            "title": "Календари",
+            "url": "/catalog/kalendari/",
+            "image": "/upload/uf/ced/calenda.svg"
+          },
+          {
+            "title": "Каталоги",
+            "url": "/catalog/katalogi/",
+            "image": "/upload/uf/b9b/catalog.svg"
+          },
+          {
+            "title": "Книги",
+            "url": "/catalog/knigi/",
+            "image": "/upload/uf/9c1/book.svg"
+          },
+          {
+            "title": "Конверты",
+            "url": "/catalog/konverty/",
+            "image": "/upload/uf/c36/convert.svg"
+          },
+          {
+            "title": "Коробки",
+            "url": "/catalog/korobki/",
+            "image": "/upload/uf/51c/corobki_pr_log.svg"
+          },
+          {
+            "title": "Коробки с логотипом",
+            "url": "/catalog/korobki-s-logotipom/",
+            "image": "/upload/uf/67e/corobki.svg"
+          },
+          {
+            "title": "Корпоративные календари",
+            "url": "/catalog/korporativnye-kalendari/",
+            "image": "/upload/uf/a0e/a0ec8ecb3d2d27c97e22a9449a624ab4.svg"
+          },
+          {
+            "title": "Кубарики",
+            "url": "/catalog/kubariki/",
+            "image": "/upload/uf/b99/cubar.svg"
+          },
+          {
+            "title": "Листовки",
+            "url": "/catalog/listovki/",
+            "image": "/upload/uf/f4b/listovki.svg"
+          },
+          {
+            "title": "Лифлеты",
+            "url": "/catalog/liflety/",
+            "image": "/upload/uf/231/liflet.svg"
+          },
+          {
+            "title": "Меню для ресторанов",
+            "url": "/catalog/menyu-dlya-restoranov/",
+            "image": "/upload/uf/358/menu.svg"
+          },
+          {
+            "title": "Наклейки, стикеры",
+            "url": "/catalog/pechat-nakleek-i-stikerov/",
+            "image": "/upload/uf/b0d/naklej.svg"
+          },
+          {
+            "title": "Наклейки с логотипом",
+            "url": "/catalog/nakleyki-s-logotipom/",
+            "image": "/upload/uf/9c3/naklej.svg"
+          },
+          {
+            "title": "Обечайки",
+            "url": "/catalog/obechayki/",
+            "image": "/upload/uf/625/obechaiki.svg"
+          },
+          {
+            "title": "Открытки",
+            "url": "/catalog/otkrytki-i-priglasheniya/",
+            "image": "/upload/uf/74b/postcard.svg"
+          },
+          {
+            "title": "Пакеты",
+            "url": "/catalog/pakety/",
+            "image": "/upload/uf/a85/paket.svg"
+          },
+          {
+            "title": "Папки",
+            "url": "/catalog/papki/",
+            "image": "/upload/uf/ba9/papki.svg"
+          },
+          {
+            "title": "Плакаты и постеры",
+            "url": "/catalog/plakaty-i-postery/",
+            "image": "/upload/uf/5dd/plakat.svg"
+          },
+          {
+            "title": "Пластиковые карты",
+            "url": "/catalog/plastikovye-karty/",
+            "image": "/upload/uf/367/plascard.svg"
+          },
+          {
+            "title": "Подарочные коробки",
+            "url": "/catalog/korobki-moskva/",
+            "image": "/upload/uf/ed2/corobki.svg"
+          },
+          {
+            "title": "Рекламные материалы",
+            "url": "/catalog/reklamnye-materialy/",
+            "image": "/upload/uf/af3/af38706793f249d903f2a9d25845a79d.svg"
+          },
+          {
+            "title": "Самокопирующиеся бланки",
+            "url": "/catalog/samokopiruyushchiesya-blanki/",
+            "image": "/upload/uf/23b/samocop.svg"
+          },
+          {
+            "title": "Свадебная полиграфия",
+            "url": "/catalog/svadebnaya-poligrafiya/",
+            "image": "/upload/uf/1e2/rings.svg"
+          },
+          {
+            "title": "Сувениры",
+            "url": "/catalog/suveniry/",
+            "image": "/upload/uf/68a/68a5e1c5e16fed808bd67b685e276b2f.svg"
+          },
+          {
+            "title": "Флаеры",
+            "url": "/catalog/flaery/",
+            "image": "/upload/uf/e4e/flyer.svg"
+          },
+          {
+            "title": "Шуберы",
+            "url": "/catalog/shubery/",
+            "image": "/upload/uf/723/shubery.svg"
+          },
+          {
+            "title": "Этикетки",
+            "url": "/catalog/etiketki-i-birki/",
+            "image": "/upload/uf/3f1/etibeer.svg"
+          }
+        ]
+      },
+      {
+        "title": "Услуги",
+        "url": "/services/",
+        "children": [
+          {
+            "title": "Брошюровка",
+            "url": "/services/broshyurovka/"
+          },
+          {
+            "title": "Вырубка",
+            "url": "/services/vyrubka/"
+          },
+          {
+            "title": "Дизайн меню для ресторанов и кафе",
+            "url": "/services/dizayn-menyu-dlya-restoranov-i-kafe/"
+          },
+          {
+            "title": "Дизайн полиграфии",
+            "url": "/services/dizayn-poligrafii/"
+          },
+          {
+            "title": "Интерьерная печать",
+            "url": "/services/interernaya-pechat-moskva/"
+          },
+          {
+            "title": "Ламинирование",
+            "url": "/services/laminirovanie/"
+          },
+          {
+            "title": "Офсетная печать",
+            "url": "/services/ofsetnaya-pechat/"
+          },
+          {
+            "title": "Печать баннеров",
+            "url": "/services/pechat-bannerov-moskva/"
+          },
+          {
+            "title": "Печать большого тиража",
+            "url": "/services/pechat-bolshogo-tirazha/"
+          },
+          {
+            "title": "Печать на самоклеящейся пленке",
+            "url": "/services/pechat-na-samokleyushcheysya-plenke/"
+          },
+          {
+            "title": "Твердый переплет книг",
+            "url": "/services/tverdyy-pereplet-knig/"
+          },
+          {
+            "title": "Тиснение",
+            "url": "/services/tisnenie/"
+          },
+          {
+            "title": "Цифровая печать",
+            "url": "/services/tsifrovaya-pechat-moskva/"
+          },
+          {
+            "title": "Шелкография",
+            "url": "/services/shelkografiya/"
+          },
+          {
+            "title": "Широкоформатная печать",
+            "url": "/services/shirokoformatnaya-pechat-moskva/"
+          }
+        ]
+      },
+      {
+        "title": "Цены",
+        "url": "/catalog/tseny/"
+      },
+      {
+        "title": "Акции",
+        "url": "/action/"
+      },
+      {
+        "title": "Портфолио",
+        "url": "/portfolio/"
+      },
+      {
+        "title": "О Компании",
+        "url": "/company/",
+        "children": [
+          {
+            "title": "Вакансии",
+            "url": "/company/vacancies/"
+          },
+          {
+            "title": "Вопрос-Ответ",
+            "url": "/company/faq/"
+          },
+          {
+            "title": "Новости",
+            "url": "/company/news/"
+          },
+          {
+            "title": "О Полиграфи",
+            "url": "/company/"
+          },
+          {
+            "title": "Отзывы",
+            "url": "/company/review/"
+          }
+        ]
+      },
+      {
+        "title": "Клиентам",
+        "url": "/clients/zakazat/",
+        "children": [
+          {
+            "title": "Варианты бумаги",
+            "url": "/clients/paper/"
+          },
+          {
+            "title": "В помощь полиграфистам",
+            "url": "/clients/v-pomoshch-poligrafistam/"
+          },
+          {
+            "title": "Для агентств",
+            "url": "/clients/predlozhenie-dlya-agentstv/"
+          },
+          {
+            "title": "Доставка и оплата",
+            "url": "/clients/oplata-i-dostavka/"
+          },
+          {
+            "title": "Как сделать заказ",
+            "url": "/clients/zakazat/"
+          },
+          {
+            "title": "Технические требования",
+            "url": "/clients/ttreb/"
+          }
+        ]
+      },
+      {
+        "title": "Контакты",
+        "url": "/contact/"
+      }
+    ],
+    "featured_products": [
+      {
+        "title": "POS материалы",
+        "url": "/catalog/pos-materialy/",
+        "image": "/upload/uf/07f/pos.svg"
+      },
+      {
+        "title": "Листовки",
+        "url": "/catalog/listovki/",
+        "image": "/upload/uf/f4b/listovki.svg"
+      },
+      {
+        "title": "Брошюры",
+        "url": "/catalog/broshyury/",
+        "image": "/upload/uf/002/broshur.svg"
+      },
+      {
+        "title": "Блокноты",
+        "url": "/catalog/bloknoty/",
+        "image": "/upload/uf/69d/bloknot.svg"
+      },
+      {
+        "title": "Визитки",
+        "url": "/catalog/vizitki/",
+        "image": "/upload/uf/78f/vizitki.svg"
+      }
+    ]
+  }
+}

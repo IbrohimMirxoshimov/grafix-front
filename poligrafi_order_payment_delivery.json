@@ -1,0 +1,118 @@
+{
+  "order_methods": {
+    "title": "Как заказать",
+    "subtitle": "5 способов оформления заказа",
+    "methods": [
+      {
+        "title": "Сделайте звонок",
+        "description": "Позвоните напрямую и получите консультацию",
+        "phone": "8 (495) 789-47-35",
+        "phone_link": "tel:+74957894735",
+        "icon": "call"
+      },
+      {
+        "title": "Заполните форму",
+        "description": "Заполните форму на сайте и мы перезвоним",
+        "processing_time": "10 мин",
+        "processing_label": "Среднее время обработки:",
+        "icon": "write"
+      },
+      {
+        "title": "Отправьте письмо на e-mail",
+        "description": "Отправьте письмо с техническим заданием",
+        "email": "info@poligrafi.com",
+        "processing_time": "15 мин",
+        "processing_label": "Среднее время обработки:",
+        "icon": "email"
+      },
+      {
+        "title": "Сделайте расчет на калькуляторе",
+        "description": "Рассчитайте заказ на онлайн-калькуляторе",
+        "calculator_link": "/catalog/print-expert/?id=36300",
+        "processing_time": "1 мин",
+        "processing_label": "Среднее время обработки:",
+        "icon": "calc"
+      },
+      {
+        "title": "Приезжайте в офис",
+        "description": "м. Волгоградский Проспект / МЦК \"Дубровка\"",
+        "contact_link": "/contact/",
+        "icon": "map"
+      }
+    ]
+  },
+  "payment_methods": {
+    "title": "Оплата",
+    "subtitle": "Способы оплаты",
+    "methods": [
+      {
+        "title": "Наличный расчёт",
+        "description": "Вы можете оплатить заказ в нашем офисе при его оформлении или получении (порядок определяется вашим менеджером при оформлении заказа).",
+        "contact_link": "/contact/"
+      },
+      {
+        "title": "Безналичный расчёт",
+        "description": "Оплата заказов клиентами - юридическими лицами возможна только по безналичному расчёту."
+      },
+      {
+        "title": "Банковские карты",
+        "description": "Сервис приёма оплаты предоставлен PayAnyWay",
+        "provider": "PayAnyWay",
+        "provider_link": "http://payanyway.ru/",
+        "supported_cards": [
+          {
+            "name": "Visa",
+            "image": "/images/poligrafi/payment/visa.png"
+          },
+          {
+            "name": "Mastercard",
+            "image": "/images/poligrafi/payment/mastercard.png"
+          }
+        ]
+      }
+    ],
+    "footer_payment_icons": [
+      "/local/templates/bas/img/pay1.png",
+      "/local/templates/bas/img/pay2.png",
+      "/local/templates/bas/img/pay3.png",
+      "/local/templates/bas/img/pay4.png"
+    ]
+  },
+  "delivery": {
+    "title": "Доставка",
+    "subtitle": "Доставка по Москве",
+    "options": [
+      {
+        "type": "Легкие заказы",
+        "weight": "менее 3 кг",
+        "price": "450 руб.",
+        "icon": "/images/box-delivery.svgz"
+      },
+      {
+        "type": "Автомобильная доставка",
+        "weight": "более 5 кг",
+        "prices": [
+          {
+            "zone": "в пределах ТТК",
+            "price": "1 500 руб."
+          },
+          {
+            "zone": "в пределах МКАД",
+            "price": "2 000 руб."
+          }
+        ],
+        "icon": "/images/fast-delivery.svgz"
+      }
+    ],
+    "urgent_delivery_note": "Возможность срочной доставки оговаривается с менеджером в каждом конкретном случае. На стоимость срочной доставки действует наценка - 100%."
+  },
+  "calculator": {
+    "title": "Калькулятор",
+    "link": "/catalog/print-expert/?id=36300",
+    "icon": "/local/templates/bas/img/sprite.svg#calc"
+  },
+  "privacy_policy": {
+    "text": "Нажимая кнопку, вы даете согласие на обработку персональных данных",
+    "link": "/politica.html"
+  }
+}

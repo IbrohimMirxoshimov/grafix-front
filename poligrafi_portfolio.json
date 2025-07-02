@@ -1,0 +1,153 @@
+{
+  "portfolio": {
+    "title": "Примеры работ",
+    "subtitle": "Портфолио наших проектов",
+    "categories": [
+      {
+        "title": "Листовки",
+        "icon": "/upload/uf/f4b/listovki.svg",
+        "examples": [
+          {
+            "image_thumb": "/upload/resize_cache//779/270_270_2/Листовки_listovki-7.jpg",
+            "image_full": "/upload/779/Листовки_listovki-7.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//f21/270_270_2/Листовки_listovki-5.jpg",
+            "image_full": "/upload/f21/Листовки_listovki-5.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//a73/270_270_2/Листовки_listovki-4.jpg",
+            "image_full": "/upload/a73/Листовки_listovki-4.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//436/270_270_2/Листовки_listovki-3.jpg",
+            "image_full": "/upload/436/Листовки_listovki-3.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//3f1/270_270_2/Листовки_listovki-2.jpg",
+            "image_full": "/upload/3f1/Листовки_listovki-2.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//ec4/270_270_2/Листовки_listovki-6.jpg",
+            "image_full": "/upload/ec4/Листовки_listovki-6.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//df5/270_270_2/Листовки_listovki-1.jpg",
+            "image_full": "/upload/df5/Листовки_listovki-1.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Брошюры",
+        "icon": "/upload/uf/002/broshur.svg",
+        "examples": [
+          {
+            "image_thumb": "/upload/resize_cache//5ef/270_270_2/Брошюры_broshura-0349.jpg",
+            "image_full": "/upload/5ef/Брошюры_broshura-0349.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//ec6/270_270_2/Брошюры_broshura-0346.jpg",
+            "image_full": "/upload/ec6/Брошюры_broshura-0346.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//778/270_270_2/Брошюры_broshura-0333.jpg",
+            "image_full": "/upload/778/Брошюры_broshura-0333.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//406/270_270_2/Брошюры_broshura-0045.jpg",
+            "image_full": "/upload/406/Брошюры_broshura-0045.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//be0/270_270_2/Брошюры_broshura-0046.jpg",
+            "image_full": "/upload/be0/Брошюры_broshura-0046.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//615/270_270_2/Брошюры_broshura-0050.jpg",
+            "image_full": "/upload/615/Брошюры_broshura-0050.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//922/270_270_2/Брошюры_broshura-0052.jpg",
+            "image_full": "/upload/922/Брошюры_broshura-0052.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//565/270_270_2/Брошюры_broshura-0055.jpg",
+            "image_full": "/upload/565/Брошюры_broshura-0055.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Визитки",
+        "icon": "/upload/uf/78f/vizitki.svg",
+        "examples": [
+          {
+            "image_thumb": "/upload/resize_cache//e2d/270_270_2/Визитки_shelk_pt_1.jpg",
+            "image_full": "/upload/e2d/Визитки_shelk_pt_1.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//23a/270_270_2/Визитки_shelko-11-big.jpg",
+            "image_full": "/upload/23a/Визитки_shelko-11-big.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//824/270_270_2/Визитки_vizitka-shelkographiya-1.jpg",
+            "image_full": "/upload/824/Визитки_vizitka-shelkographiya-1.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//181/270_270_2/Визитки_vizitka-shelkographiya-3.jpg",
+            "image_full": "/upload/181/Визитки_vizitka-shelkographiya-3.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//117/270_270_2/Визитки_vizitka-shelkographiya-5.jpg",
+            "image_full": "/upload/117/Визитки_vizitka-shelkographiya-5.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//ad7/270_270_2/Визитки_shelko-2-big.jpg",
+            "image_full": "/upload/ad7/Визитки_shelko-2-big.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//47d/270_270_2/Визитки_shelko-3-big.jpg",
+            "image_full": "/upload/47d/Визитки_shelko-3-big.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//bbe/270_270_2/Визитки_shelko-4-big.jpg",
+            "image_full": "/upload/bbe/Визитки_shelko-4-big.jpg"
+          }
+        ]
+      },
+      {
+        "title": "Наклейки, стикеры",
+        "icon": "/upload/uf/b0d/naklej.svg",
+        "examples": [
+          {
+            "image_thumb": "/upload/resize_cache//83b/270_270_2/Наклейки и стикеры_nakleyka-0002.jpg",
+            "image_full": "/upload/83b/Наклейки и стикеры_nakleyka-0002.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//f76/270_270_2/Наклейки и стикеры_nakleyka-0015.jpg",
+            "image_full": "/upload/f76/Наклейки и стикеры_nakleyka-0015.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//7d4/270_270_2/Наклейки и стикеры_nakleyka-0016.jpg",
+            "image_full": "/upload/7d4/Наклейки и стикеры_nakleyka-0016.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//51b/270_270_2/Наклейки и стикеры_nakleyka-0018.jpg",
+            "image_full": "/upload/51b/Наклейки и стикеры_nakleyka-0018.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//e39/270_270_2/Наклейки и стикеры_nakleyka-0019.jpg",
+            "image_full": "/upload/e39/Наклейки и стикеры_nakleyka-0019.jpg"
+          },
+          {
+            "image_thumb": "/upload/resize_cache//f15/270_270_2/Наклейки и стикеры_nakleyka-0024.jpg",
+            "image_full": "/upload/f15/Наклейки и стикеры_nakleyka-0024.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Заказать печать в типографии Полиграфи",
+    "description": "Заполните форму и мы свяжемся с Вами в ближайшее время",
+    "button_text": "Заявка на расчет"
+  }
+}

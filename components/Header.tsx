@@ -6,6 +6,8 @@ import { Menu, X, Phone, Mail, MapPin, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { navigationItems, companyInfo } from '@/lib/data';
 
+const BASE_URL = 'https://www.poligrafi.com';
+
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null);
@@ -28,11 +30,15 @@ export default function Header() {
             <div className="flex flex-wrap items-center gap-4">
               <div className="flex items-center gap-1">
                 <Phone className="h-3 w-3" />
-                <span>{companyInfo.phone}</span>
+                <a href="tel:+998991305000" className="hover:text-blue-200">
+                  +998 99 130-50-00
+                </a>
               </div>
               <div className="flex items-center gap-1">
                 <Mail className="h-3 w-3" />
-                <span>{companyInfo.email}</span>
+                <a href="mailto:info@grafix.uz" className="hover:text-blue-200">
+                  info@grafix.uz
+                </a>
               </div>
               <div className="hidden md:flex items-center gap-1">
                 <MapPin className="h-3 w-3" />

@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Phone, Mail, Menu, X } from 'lucide-react'
 
-const BASE_URL = 'https://www.poligrafi.com'
+const BASE_URL = 'https://www.grafix.uz'
 
 export default function GrafixHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

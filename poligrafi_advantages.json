@@ -1,27 +1,31 @@
 {
   "advantages": {
-    "title": "Типография Grafix",
-    "subtitle": "Преимущества нашей компании",
+    "title": "Наши преимущества",
+    "subtitle": "Почему выбирают нас",
     "items": [
       {
+        "id": "fast_printing",
         "title": "Печать тиража в день заказа",
         "description": "Выполнение заказов любого объема за минимальные сроки",
-        "icon": "/upload/iblock/6fe/6fe13d04c02716ecaa0a54049bf2af90.svg"
+        "icon": "clock"
       },
       {
+        "id": "design_team",
         "title": "Собственный штат дизайнеров",
         "description": "От корректировки макетов и до создания фирменного стиля",
-        "icon": "/upload/iblock/ce2/ce297d06bb428b3b5a2bdb4a1ad8427c.svg"
+        "icon": "users"
       },
       {
+        "id": "online_payment",
         "title": "Оплата онлайн и безналичный расчет",
         "description": "Оплатите онлайн и мы сразу же отправим заказ в печать",
-        "icon": "/upload/iblock/ffa/ffa7bf4009d3f3998b27fb80ea562633.svg"
+        "icon": "credit-card"
       },
       {
-        "title": "Оперативная доставка по Москве",
-        "description": "Наши курьеры доставят заказ в любую точку Москвы",
-        "icon": "/upload/iblock/49c/49c2b76fdff7581cd4150ae1cc9555c7.svg"
+        "id": "fast_delivery",
+        "title": "Оперативная доставка по Ташкенту",
+        "description": "Наши курьеры доставят заказ в любую точку Ташкента",
+        "icon": "truck"
       }
     ]
   },

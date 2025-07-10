@@ -1,10 +1,10 @@
 {
   "company": {
-    "name": "Типография Grafix",
+    "name": "Grafix",
     "slogan": "Печать тиража в день заказа",
     "description": "Типография полного цикла «Grafix» оказывает полиграфические услуги в Ташкенте по низким ценам",
-    "established": "2005",
-    "experience": "Более 20 лет на рынке печати",
+    "established": "2015",
+    "experience": "Более 10 лет на рынке печати",
     "website": "https://www.grafix.uz",
     "contact": {
       "phone": "+998 99 130-50-00",
@@ -20,15 +20,19 @@
       "country": "Узбекистан",
       "postal_code": "",
       "street": "Улица Турккургон",
-      "metro": "г. Ташкент"
+      "metro": "г. Ташкент",
+      "coordinates": {
+        "latitude": 41.33898,
+        "longitude": 69.265815
+      }
     },
     "statistics": {
-      "years_in_market": "Более 20 лет на рынке печати",
+      "years_in_market": "Более 10 лет на рынке печати",
       "orders_completed": "Выполнили свыше 345 000 заказов",
       "satisfied_clients": "Более 54 000 довольных клиентов",
       "rating": "4.5",
       "review_count": "1021"
     },
-    "copyright": "© Grafix.uz, 2005-2025. Все права защищены."
+    "copyright": "© Grafix.uz, 2015-2025. Все права защищены."
   }
 }

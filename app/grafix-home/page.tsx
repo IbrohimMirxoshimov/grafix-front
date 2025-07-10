@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-const BASE_URL = 'https://www.poligrafi.com'
+const BASE_URL = 'https://www.grafix.uz'
 
 export default function GrafixHomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

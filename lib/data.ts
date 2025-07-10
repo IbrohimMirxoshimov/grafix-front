@@ -1,19 +1,19 @@
-// Data for Полиграфи printing company website (Moscow)
+// Data for Grafix printing company website (Tashkent)
 export const companyInfo = {
-  name: "Полиграфи",
+  name: "Grafix",
   tagline: "Печать тиража в день заказа",
-  description: "Ведущая типография в Москве с 2005 года. Специализируемся на срочной печати полиграфии — от визиток до каталогов. Предлагаем оперативную полиграфию на заказ по доступным ценам, без потери качества.",
-  address: "115088, Россия, г. Москва, ул. Шарикоподшипниковская, д. 13, стр. 46",
-  phone: "8 (495) 789-47-35",
-  email: "info@poligrafi.ru",
-  whatsapp: "+79150678261",
+  description: "Ведущая типография в Ташкенте с 2015 года. Специализируемся на срочной печати полиграфии — от визиток до каталогов. Предлагаем оперативную полиграфию на заказ по доступным ценам, без потери качества.",
+  address: "Узбекистан, г. Ташкент, Улица Турккургон",
+  phone: "+998 99 130-50-00",
+  email: "info@grafix.uz",
+  whatsapp: "+998991305000",
   workingHours: "Пн-Пт с 10:00 до 18:00",
-  metro: "м. Волгоградский Проспект / МЦК \"Дубровка\"",
-  founded: "2005",
-  experience: "19+ лет опыта",
-  completedProjects: "15000+",
-  satisfiedClients: "3000+",
-  region: "Москва и Московская область"
+  metro: "г. Ташкент",
+  founded: "2015",
+  experience: "10+ лет опыта",
+  completedProjects: "345000+",
+  satisfiedClients: "54000+",
+  region: "Ташкент"
 };
 
 export const advantages = [
@@ -34,8 +34,8 @@ export const advantages = [
   },
   {
     id: 4,
-    title: "Оперативная доставка по Москве",
-    description: "Наши курьеры доставят заказ в любую точку Москвы"
+    title: "Оперативная доставка по Ташкенту",
+    description: "Наши курьеры доставят заказ в любую точку Ташкента"
   }
 ];
 
@@ -44,7 +44,7 @@ export const orderMethods = [
     id: 1,
     title: "Сделайте звонок",
     description: "Позвоните напрямую и получите консультацию",
-    contact: "8 (495) 789-47-35",
+    contact: "+998 99 130-50-00",
     processingTime: "Мгновенно",
     icon: "Phone"
   },
@@ -59,7 +59,7 @@ export const orderMethods = [
     id: 3,
     title: "Отправьте письмо на e-mail",
     description: "Отправьте письмо с техническим заданием",
-    contact: "info@poligrafi.ru",
+    contact: "info@grafix.uz",
     processingTime: "15 мин",
     icon: "Mail"
   },
@@ -74,7 +74,7 @@ export const orderMethods = [
     id: 5,
     title: "Приезжайте в офис",
     description: "Личное посещение офиса",
-    contact: "м. Волгоградский Проспект / МЦК \"Дубровка\"",
+    contact: "г. Ташкент, Улица Турккургон",
     icon: "MapPin"
   }
 ];
@@ -99,13 +99,12 @@ export const paymentMethods = [
 
 export const deliveryInfo = {
   lightDelivery: {
-    weight: "Менее 3 кг",
-    price: "450 руб."
+    weight: "Менее 3 кг"
   },
   autoDelivery: {
     weight: "Более 5 кг",
-    withinTTK: "В пределах ТТК: 1 500 руб.",
-    withinMKAD: "В пределах МКАД: 2 000 руб."
+    withinTTK: "В пределах ТТК",
+    withinMKAD: "В пределах МКАД"
   }
 };
 

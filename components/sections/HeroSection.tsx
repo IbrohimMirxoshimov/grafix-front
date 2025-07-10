@@ -22,7 +22,7 @@ export default function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center bg-blue-600/20 backdrop-blur-sm border border-blue-400/30 rounded-full px-4 py-2 mb-6">
             <CheckCircle className="h-4 w-4 mr-2 text-green-400" />
-            <span className="text-sm font-medium">Работаем с 2005 года • 3000+ довольных клиентов</span>
+            <span className="text-sm font-medium">Работаем с 2015 года • 3000+ довольных клиентов</span>
           </div>
 
           {/* Main Heading */}
@@ -71,7 +71,7 @@ export default function HeroSection() {
               asChild 
               variant="outline" 
               size="lg"
-              className="border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 text-lg font-semibold rounded-xl backdrop-blur-sm transition-all duration-300"
+              className="bg-blue-600/80 border-2 border-blue-600 text-white hover:bg-white hover:text-gray-900 px-8 py-4 text-lg font-semibold rounded-xl backdrop-blur-sm transition-all duration-300"
             >
               <Link href={`tel:${companyInfo.phone}`} className="flex items-center">
                 <Phone className="mr-2 h-5 w-5" />
@@ -91,7 +91,7 @@ export default function HeroSection() {
               <div className="text-sm text-gray-300">Клиентов</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">19+</div>
+              <div className="text-2xl md:text-3xl font-bold text-blue-400 mb-1">10+</div>
               <div className="text-sm text-gray-300">Лет опыта</div>
             </div>
             <div className="text-center">

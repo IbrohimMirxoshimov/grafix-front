@@ -1,6 +1,7 @@
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { products } from '@/lib/data';
+// import { products } from '@/lib/data';
 
 export default function ProductsSection() {
   return (
@@ -24,14 +25,22 @@ export default function ProductsSection() {
           {products.map((product, index) => (
             <Card key={index} className="group hover:shadow-md transition-all duration-300 border hover:border-blue-200">
               <CardContent className="p-4 text-center">
-                <div className="w-12 h-12 mx-auto mb-3 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <span className="text-white font-bold text-sm">
-                    {product.charAt(0)}
-                  </span>
+                <div className="w-12 h-12 mx-auto mb-3 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 overflow-hidden">
+                  {product.image ? (
+                    <img
+                      src={product.image}
+                      alt={product.title}
+                      className="object-contain w-8 h-8 mx-auto"
+                      loading="lazy"
+                    />
+                  ) : (
+                    <span className="text-white font-bold text-sm">
+                      {product.title.charAt(0)}
+                    </span>
+                  )}
                 </div>
-                
                 <h3 className="text-sm font-semibold text-gray-900 group-hover:text-blue-600 transition-colors leading-tight">
-                  {product}
+                  {product.title}
                 </h3>
               </CardContent>
             </Card>

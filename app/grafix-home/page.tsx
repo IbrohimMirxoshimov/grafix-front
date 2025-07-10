@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-const BASE_URL = 'https://www.grafix.uz'
+export const BASE_URL = 'https://www.poligrafi.com'
 
 export default function GrafixHomePage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -487,7 +487,7 @@ export default function GrafixHomePage() {
               <h3 className="text-xl font-bold">Grafix</h3>
             </div>
             <p className="text-gray-400 mb-4">
-              © Grafix.uz, 2005-2025. Все права защищены.
+              © Grafix.uz, 2015-2025. Все права защищены.
             </p>
             <div className="flex justify-center gap-6">
               <a href={`tel:${companyInfo.phone.replace(/\s/g, '')}`} className="text-gray-400 hover:text-white">

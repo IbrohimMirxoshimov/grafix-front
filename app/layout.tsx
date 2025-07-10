@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: 'Grafix',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-grafix.png',
         width: 1200,
         height: 630,
         alt: 'Grafix - Полиграфия в Ташкенте',

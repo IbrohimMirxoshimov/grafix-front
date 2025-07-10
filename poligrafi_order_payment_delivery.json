@@ -85,7 +85,6 @@
       {
         "type": "Легкие заказы",
         "weight": "менее 3 кг",
-        "price": "450 руб.",
         "icon": "/images/box-delivery.svgz"
       },
       {
@@ -93,12 +92,10 @@
         "weight": "более 5 кг",
         "prices": [
           {
-            "zone": "в пределах ТТК",
-            "price": "1 500 руб."
+            "zone": "в пределах ТТК"
           },
           {
-            "zone": "в пределах МКАД",
-            "price": "2 000 руб."
+            "zone": "в пределах МКАД"
           }
         ],
         "icon": "/images/fast-delivery.svgz"

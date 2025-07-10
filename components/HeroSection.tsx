@@ -1,4 +1,4 @@
-const BASE_URL = 'https://www.poligrafi.com'
+const BASE_URL = 'https://www.grafix.uz'
 
 export default function HeroSection() {
   return (

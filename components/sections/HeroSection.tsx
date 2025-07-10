@@ -35,7 +35,7 @@ export default function HeroSection() {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Оперативная полиграфия в Москве по доступным ценам. 
+            Оперативная полиграфия в Ташкенте по доступным ценам. 
             Собственный штат дизайнеров и современное оборудование.
           </p>
 
@@ -45,7 +45,7 @@ export default function HeroSection() {
               'Печать тиража в день заказа',
               'Собственный штат дизайнеров',
               'Оплата онлайн и безналичный расчет',
-              'Оперативная доставка по Москве'
+              'Оперативная доставка по Ташкенту'
             ].map((feature, index) => (
               <div key={index} className="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
                 <CheckCircle className="h-4 w-4 mr-2 text-green-400 flex-shrink-0" />

@@ -6,7 +6,7 @@ import { Menu, X, Phone, Mail, MapPin, ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { navigationItems, companyInfo } from '@/lib/data';
 
-const BASE_URL = 'https://www.poligrafi.com';
+const BASE_URL = 'https://www.grafix.uz';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,7 +36,7 @@ export default function Header() {
               </div>
               <div className="flex items-center gap-1">
                 <Mail className="h-3 w-3" />
-                <a href="mailto:info@grafix.uz" className="hover:text-blue-200">
+                <a href="https://t.me/mediamaxuzb" className="hover:text-blue-200">
                   info@grafix.uz
                 </a>
               </div>
@@ -58,10 +58,10 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold text-2xl px-3 py-2 rounded-lg">
-              П
+              G
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Полиграфи</h1>
+              <h1 className="text-xl font-bold text-gray-900">Grafix</h1>
               <p className="text-xs text-gray-600">{companyInfo.tagline}</p>
             </div>
           </Link>

@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin', 'cyrillic'] });
 export const metadata: Metadata = {
   metadataBase: new URL('https://grafix.uz'),
   title: 'Grafix - Полиграфия в Ташкенте | Печать визиток, брошюр, листовок',
-  description: 'Профессиональная полиграфия в Ташкенте с 2020 года. Качественная печать визиток, брошюр, листовок, баннеров. Быстрое выполнение заказов. Собственная дизайн-студия. Звоните: +998 78 150 50 50',
+  description: 'Профессиональная полиграфия в Ташкенте с 2015 года. Качественная печать визиток, брошюр, листовок, баннеров. Быстрое выполнение заказов. Собственная дизайн-студия. Звоните: +998 99 130-50-00',
   keywords: 'полиграфия ташкент, печать визиток, типография ташкент, печать листовок, брошюры, дизайн печать, граффикс, grafix, цифровая печать, офсетная печать, календари, баннеры, упаковка, наклейки',
   authors: [{ name: 'Grafix' }],
   creator: 'Grafix',
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   robots: 'index, follow',
   openGraph: {
     title: 'Grafix - Полиграфия в Ташкенте | Печать визиток, брошюр',
-    description: 'Профессиональная полиграфия в Ташкенте с 2020 года. Качественная печать визиток, брошюр, листовок, баннеров. Быстрое выполнение заказов.',
+    description: 'Профессиональная полиграфия в Ташкенте с 2015 года. Качественная печать визиток, брошюр, листовок, баннеров. Быстрое выполнение заказов.',
     url: 'https://grafix.uz',
     siteName: 'Grafix',
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Grafix - Полиграфия в Ташкенте',
-    description: 'Профессиональная полиграфия в Ташкенте с 2020 года. Качественная печать визиток, брошюр, листовок, баннеров.',
+    description: 'Профессиональная полиграфия в Ташкенте с 2015 года. Качественная печать визиток, брошюр, листовок, баннеров.',
     images: ['/og-image.jpg'],
   },
   alternates: {
@@ -66,20 +66,20 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "PrintingService",
               "name": "Grafix",
-              "description": "Профессиональная полиграфия в Ташкенте с 2020 года",
+              "description": "Профессиональная полиграфия в Ташкенте с 2015 года",
               "url": "https://grafix.uz",
-              "telephone": "+998-78-150-50-50",
+              "telephone": "+998-99-130-50-00",
               "email": "info@grafix.uz",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "ул. Амира Темура, 108",
+                "streetAddress": "Улица Турккургон",
                 "addressLocality": "Ташкент",
                 "postalCode": "100000",
                 "addressCountry": "UZ"
               },
-              "openingHours": "Mo-Fr 09:00-19:00, Sa 10:00-16:00",
+              "openingHours": "Mo-Fr 10:00-18:00",
               "priceRange": "$$",
-              "foundingDate": "2020",
+              "foundingDate": "2015",
               "serviceArea": {
                 "@type": "City",
                 "name": "Ташкент"
@@ -127,8 +127,8 @@ export default function RootLayout({
               },
               "aggregateRating": {
                 "@type": "AggregateRating",
-                "ratingValue": "5.0",
-                "reviewCount": "500"
+                "ratingValue": "4.5",
+                "reviewCount": "1021"
               }
             }),
           }}

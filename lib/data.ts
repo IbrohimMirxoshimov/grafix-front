@@ -1,19 +1,19 @@
-// Data for Полиграфи printing company website (Tashkent)
+// Data for Grafix printing company website (Tashkent)
 export const companyInfo = {
   name: "Grafix",
   tagline: "Печать тиража в день заказа",
-  description: "Ведущая типография в Ташкенте с 2005 года. Специализируемся на срочной печати полиграфии — от визиток до каталогов. Предлагаем оперативную полиграфию на заказ по доступным ценам, без потери качества.",
-  address: "100000, Узбекистан, г. Ташкент, ул. Амир Темур, д. 10",
-  phone: "+998 (71) 123-45-67",
+  description: "Ведущая типография в Ташкенте с 2015 года. Специализируемся на срочной печати полиграфии — от визиток до каталогов. Предлагаем оперативную полиграфию на заказ по доступным ценам, без потери качества.",
+  address: "Узбекистан, г. Ташкент, Улица Турккургон",
+  phone: "+998 99 130-50-00",
   email: "info@grafix.uz",
-  whatsapp: "+998901234567",
+  whatsapp: "+998991305000",
   workingHours: "Пн-Пт с 10:00 до 18:00",
-  metro: "м. Ойбек / МЦК \"Буюк Ипак Йули\"",
-  founded: "2005",
-  experience: "19+ лет опыта",
-  completedProjects: "15000+",
-  satisfiedClients: "3000+",
-  region: "Ташкент и Ташкентская область"
+  metro: "г. Ташкент",
+  founded: "2015",
+  experience: "10+ лет опыта",
+  completedProjects: "345000+",
+  satisfiedClients: "54000+",
+  region: "Ташкент"
 };
 
 export const advantages = [
@@ -44,7 +44,7 @@ export const orderMethods = [
     id: 1,
     title: "Сделайте звонок",
     description: "Позвоните напрямую и получите консультацию",
-    contact: "+998 (71) 123-45-67",
+    contact: "+998 99 130-50-00",
     processingTime: "Мгновенно",
     icon: "Phone"
   },
@@ -74,7 +74,7 @@ export const orderMethods = [
     id: 5,
     title: "Приезжайте в офис",
     description: "Личное посещение офиса",
-    contact: "м. Ойбек / МЦК \"Буюк Ипак Йули\"",
+    contact: "г. Ташкент, Улица Турккургон",
     icon: "MapPin"
   }
 ];
@@ -99,13 +99,12 @@ export const paymentMethods = [
 
 export const deliveryInfo = {
   lightDelivery: {
-    weight: "Менее 3 кг",
-    price: undefined
+    weight: "Менее 3 кг"
   },
   autoDelivery: {
     weight: "Более 5 кг",
-    withinTTK: undefined,
-    withinMKAD: undefined
+    withinTTK: "В пределах ТТК",
+    withinMKAD: "В пределах МКАД"
   }
 };
 
@@ -258,42 +257,42 @@ export const services = [
 export const portfolioItems = [
   {
     id: 1,
-    title: "Ресторан 'Toshkent'",
+    title: "Restoran 'Toshkent'",
     category: "Меню и листовки",
     image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80",
     description: "Дизайн и печать меню, листовок для ресторана узбекской кухни"
   },
   {
     id: 2,
-    title: "IT компания 'TechTashkent'",
+    title: "IT kompaniya 'TechUz'",
     category: "Корпоративная айдентика",
     image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&q=80",
     description: "Визитки, бланки, презентационные материалы"
   },
   {
     id: 3,
-    title: "Медицинский центр 'Salomatlik'",
+    title: "Meditsinskiy tsentr 'Zdorovye'",
     category: "Информационные материалы",
     image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80",
     description: "Брошюры, информационные стенды, календари"
   },
   {
     id: 4,
-    title: "Свадебное агентство 'Zebo'",
+    title: "Svyatba agentstvo 'Rossosh'",
     category: "Приглашения",
     image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
     description: "Эксклюзивные свадебные приглашения с золотым тиснением"
   },
   {
     id: 5,
-    title: "Сеть магазинов 'Toshkent'",
+    title: "Sety magazinov 'Moskovskiy'",
     category: "Рекламные материалы",
     image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80",
     description: "Листовки, баннеры, наклейки для сети магазинов"
   },
   {
     id: 6,
-    title: "Образовательный центр 'Bilim'",
+    title: "Obyedovateliy tsentr 'Znanie'",
     category: "Учебные материалы",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
     description: "Учебные пособия, сертификаты, дипломы"
@@ -303,24 +302,24 @@ export const portfolioItems = [
 export const testimonials = [
   {
     id: 1,
-    name: "Jasur Karimov",
-    company: "Ресторан 'Toshkent'",
+    name: "Dilmurod Karimov",
+    company: "Restoran 'Toshkent'",
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80",
     text: "Отличное качество печати и быстрое выполнение заказа. Меню получились очень красивыми! Работаем уже 3 года.",
     rating: 5
   },
   {
     id: 2,
-    name: "Dilnoza Islomova",
-    company: "IT компания 'TechTashkent'",
+    name: "Dilnoza Tashmatova",
+    company: "IT kompaniya 'TechUz'",
     avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b1e0?w=100&q=80",
     text: "Профессиональный подход к работе. Помогли с дизайном корпоративной айдентики. Печать визиток в день заказа - это просто фантастика!",
     rating: 5
   },
   {
     id: 3,
-    name: "Bekzod Kadirov",
-    company: "Медицинский центр 'Salomatlik'",
+    name: "Bobur Rahimov",
+    company: "Meditsinskiy tsentr 'Zdorovye'",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
     text: "Сотрудничаем уже 5 лет. Всегда качественно и в срок. Собственные дизайнеры - это большой плюс. Рекомендую!",
     rating: 5
@@ -371,7 +370,7 @@ export const faqItems = [
   {
     id: 9,
     question: "Как осуществляется доставка по Ташкенту?",
-    answer: "Наши курьеры доставят заказ в любую точку Ташкента. Стоимость доставки уточняйте у менеджера."
+    answer: "Наши курьеры доставят заказ в любую точку Ташкента. Стоимость доставки: менее 3 кг - 450 сум, автомобильная доставка в пределах ТТК - 1500 сум, в пределах МКАД - 2000 сум."
   },
   {
     id: 10,

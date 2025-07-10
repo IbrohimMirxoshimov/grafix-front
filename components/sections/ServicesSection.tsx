@@ -75,7 +75,6 @@ export default function ServicesSection() {
                 <CardContent className="pt-0">
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
-                      {/* Price removed */}
                       <div className="flex items-center text-sm text-gray-500">
                         <Clock className="h-4 w-4 mr-1" />
                         {service.deliveryTime}

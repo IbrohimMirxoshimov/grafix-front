@@ -1,5 +1,6 @@
 import { MapPin, Clock, Phone, Mail } from 'lucide-react';
 import ContactForm from '@/components/ContactForm';
+import YandexMap from '@/components/YandexMap';
 import { companyInfo } from '@/lib/data';
 
 export default function CTASection() {
@@ -61,10 +62,10 @@ export default function CTASection() {
                   <div>
                     <h4 className="font-semibold text-white mb-1">Email</h4>
                     <a 
-                      href={`mailto:${companyInfo.email}`}
+                      href="https://t.me/mediamaxuzb"
                       className="text-blue-100 hover:text-white transition-colors"
                     >
-                      {companyInfo.email}
+                      t.me/mediamaxuzb
                     </a>
                   </div>
                 </div>
@@ -89,7 +90,7 @@ export default function CTASection() {
               
               <ul className="space-y-4">
                 {[
-                  'Опыт работы с 2020 года',
+                  'Опыт работы с 2015 года',
                   'Современное оборудование',
                   'Собственная дизайн-студия',
                   'Быстрые сроки выполнения',
@@ -104,18 +105,12 @@ export default function CTASection() {
               </ul>
             </div>
 
-            {/* Map Placeholder */}
+            {/* Interactive Map */}
             <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
               <h3 className="text-2xl font-bold text-white mb-6">
                 Как нас найти
               </h3>
-              <div className="bg-white/20 rounded-xl h-48 flex items-center justify-center">
-                <div className="text-center text-white">
-                  <MapPin className="h-12 w-12 mx-auto mb-2 opacity-60" />
-                  <p className="text-sm opacity-80">Интерактивная карта</p>
-                  <p className="text-xs opacity-60">будет добавлена позже</p>
-                </div>
-              </div>
+              <YandexMap className="h-48" />
             </div>
           </div>
         </div>

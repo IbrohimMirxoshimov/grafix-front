@@ -75,7 +75,7 @@ export default function ServicesSection() {
                 <CardContent className="pt-0">
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
-                      <span className="text-2xl font-bold text-blue-600">{service.price}</span>
+                      {/* Price removed */}
                       <div className="flex items-center text-sm text-gray-500">
                         <Clock className="h-4 w-4 mr-1" />
                         {service.deliveryTime}
@@ -128,7 +128,7 @@ export default function ServicesSection() {
                 .map((service) => (
                   <div key={service.id} className="bg-white rounded-xl p-6 shadow-md">
                     <h4 className="font-bold text-lg mb-2">{service.title}</h4>
-                    <p className="text-red-600 font-semibold mb-2">{service.price}</p>
+                    <p className="text-red-600 font-semibold mb-2">По запросу</p>
                     <p className="text-sm text-gray-600">Готов: {service.deliveryTime}</p>
                   </div>
                 ))}

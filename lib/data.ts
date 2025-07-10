@@ -1,19 +1,19 @@
-// Data for Полиграфи printing company website (Moscow)
+// Data for Полиграфи printing company website (Tashkent)
 export const companyInfo = {
-  name: "Полиграфи",
+  name: "Grafix",
   tagline: "Печать тиража в день заказа",
-  description: "Ведущая типография в Москве с 2005 года. Специализируемся на срочной печати полиграфии — от визиток до каталогов. Предлагаем оперативную полиграфию на заказ по доступным ценам, без потери качества.",
-  address: "115088, Россия, г. Москва, ул. Шарикоподшипниковская, д. 13, стр. 46",
-  phone: "8 (495) 789-47-35",
-  email: "info@poligrafi.ru",
-  whatsapp: "+79150678261",
+  description: "Ведущая типография в Ташкенте с 2005 года. Специализируемся на срочной печати полиграфии — от визиток до каталогов. Предлагаем оперативную полиграфию на заказ по доступным ценам, без потери качества.",
+  address: "100000, Узбекистан, г. Ташкент, ул. Амир Темур, д. 10",
+  phone: "+998 (71) 123-45-67",
+  email: "info@grafix.uz",
+  whatsapp: "+998901234567",
   workingHours: "Пн-Пт с 10:00 до 18:00",
-  metro: "м. Волгоградский Проспект / МЦК \"Дубровка\"",
+  metro: "м. Ойбек / МЦК \"Буюк Ипак Йули\"",
   founded: "2005",
   experience: "19+ лет опыта",
   completedProjects: "15000+",
   satisfiedClients: "3000+",
-  region: "Москва и Московская область"
+  region: "Ташкент и Ташкентская область"
 };
 
 export const advantages = [
@@ -34,8 +34,8 @@ export const advantages = [
   },
   {
     id: 4,
-    title: "Оперативная доставка по Москве",
-    description: "Наши курьеры доставят заказ в любую точку Москвы"
+    title: "Оперативная доставка по Ташкенту",
+    description: "Наши курьеры доставят заказ в любую точку Ташкента"
   }
 ];
 
@@ -44,7 +44,7 @@ export const orderMethods = [
     id: 1,
     title: "Сделайте звонок",
     description: "Позвоните напрямую и получите консультацию",
-    contact: "8 (495) 789-47-35",
+    contact: "+998 (71) 123-45-67",
     processingTime: "Мгновенно",
     icon: "Phone"
   },
@@ -59,7 +59,7 @@ export const orderMethods = [
     id: 3,
     title: "Отправьте письмо на e-mail",
     description: "Отправьте письмо с техническим заданием",
-    contact: "info@poligrafi.ru",
+    contact: "info@grafix.uz",
     processingTime: "15 мин",
     icon: "Mail"
   },
@@ -74,7 +74,7 @@ export const orderMethods = [
     id: 5,
     title: "Приезжайте в офис",
     description: "Личное посещение офиса",
-    contact: "м. Волгоградский Проспект / МЦК \"Дубровка\"",
+    contact: "м. Ойбек / МЦК \"Буюк Ипак Йули\"",
     icon: "MapPin"
   }
 ];
@@ -100,12 +100,12 @@ export const paymentMethods = [
 export const deliveryInfo = {
   lightDelivery: {
     weight: "Менее 3 кг",
-    price: "450 руб."
+    price: undefined
   },
   autoDelivery: {
     weight: "Более 5 кг",
-    withinTTK: "В пределах ТТК: 1 500 руб.",
-    withinMKAD: "В пределах МКАД: 2 000 руб."
+    withinTTK: undefined,
+    withinMKAD: undefined
   }
 };
 
@@ -165,7 +165,6 @@ export const services = [
     title: "Визитки",
     description: "Профессиональные визитки различных форматов и материалов",
     icon: "CreditCard",
-    price: "от 500 руб.",
     features: ["Различные материалы", "Глянцевая/матовая ламинация", "Тиснение", "Скругленные углы"],
     deliveryTime: "1 день",
     image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=400&q=80",
@@ -176,7 +175,6 @@ export const services = [
     title: "Листовки и флаеры",
     description: "Яркие рекламные материалы для продвижения вашего бизнеса",
     icon: "FileText",
-    price: "от 50 руб.",
     features: ["Цветная печать", "Различные форматы", "Плотная бумага", "Быстрый тираж"],
     deliveryTime: "1 день",
     image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&q=80",
@@ -187,7 +185,6 @@ export const services = [
     title: "Брошюры и каталоги",
     description: "Качественные брошюры для презентации товаров и услуг",
     icon: "Book",
-    price: "от 300 руб.",
     features: ["Профессиональная верстка", "Качественная бумага", "Различные форматы", "Сшивка на скобу/пружину"],
     deliveryTime: "2-3 дня",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80"
@@ -197,7 +194,6 @@ export const services = [
     title: "Календари",
     description: "Настенные и настольные календари с вашим дизайном",
     icon: "Calendar",
-    price: "от 800 руб.",
     features: ["Настенные/настольные", "Ламинация", "Пружина", "Индивидуальный дизайн"],
     deliveryTime: "3-5 дней",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80"
@@ -207,7 +203,6 @@ export const services = [
     title: "Баннеры и вывески",
     description: "Широкоформатная печать для наружной рекламы",
     icon: "Monitor",
-    price: "от 1200 руб/м²",
     features: ["Баннерная ткань", "Пленка", "Интерьерная печать", "Ламинация"],
     deliveryTime: "2-3 дня",
     image: "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?w=400&q=80"
@@ -217,7 +212,6 @@ export const services = [
     title: "Упаковка",
     description: "Дизайн и печать упаковочных материалов",
     icon: "Package",
-    price: "от 100 руб.",
     features: ["Коробки", "Пакеты", "Этикетки", "Индивидуальный дизайн"],
     deliveryTime: "3-5 дней",
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80"
@@ -227,7 +221,6 @@ export const services = [
     title: "Наклейки и этикетки",
     description: "Самоклеящиеся материалы любых размеров и форм",
     icon: "Tag",
-    price: "от 80 руб.",
     features: ["Различные материалы", "Фигурная вырубка", "Ламинация", "Индивидуальные размеры"],
     deliveryTime: "1-2 дня",
     image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
@@ -238,7 +231,6 @@ export const services = [
     title: "Канцелярия",
     description: "Фирменная канцелярия для вашего офиса",
     icon: "Paperclip",
-    price: "от 200 руб.",
     features: ["Бланки", "Папки", "Блокноты", "Ручки с логотипом"],
     deliveryTime: "2-4 дня",
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80"
@@ -248,7 +240,6 @@ export const services = [
     title: "Меню для ресторанов",
     description: "Профессиональные меню для кафе и ресторанов",
     icon: "Utensils",
-    price: "от 400 руб.",
     features: ["Влагостойкие материалы", "Ламинация", "Различные размеры", "Индивидуальный дизайн"],
     deliveryTime: "2-3 дня",
     image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80"
@@ -258,7 +249,6 @@ export const services = [
     title: "Пластиковые карты",
     description: "Дисконтные и подарочные карты из пластика",
     icon: "CreditCard",
-    price: "от 250 руб.",
     features: ["Пластик 0.76мм", "Печать Silk", "Штрих-код", "Магнитная лента"],
     deliveryTime: "5-7 дней",
     image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80"
@@ -268,42 +258,42 @@ export const services = [
 export const portfolioItems = [
   {
     id: 1,
-    title: "Ресторан 'Москва'",
+    title: "Ресторан 'Toshkent'",
     category: "Меню и листовки",
     image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80",
-    description: "Дизайн и печать меню, листовок для ресторана русской кухни"
+    description: "Дизайн и печать меню, листовок для ресторана узбекской кухни"
   },
   {
     id: 2,
-    title: "IT компания 'TechMoscow'",
+    title: "IT компания 'TechTashkent'",
     category: "Корпоративная айдентика",
     image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&q=80",
     description: "Визитки, бланки, презентационные материалы"
   },
   {
     id: 3,
-    title: "Медицинский центр 'Здоровье'",
+    title: "Медицинский центр 'Salomatlik'",
     category: "Информационные материалы",
     image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80",
     description: "Брошюры, информационные стенды, календари"
   },
   {
     id: 4,
-    title: "Свадебное агентство 'Роскошь'",
+    title: "Свадебное агентство 'Zebo'",
     category: "Приглашения",
     image: "https://images.unsplash.com/photo-1519741497674-611481863552?w=600&q=80",
     description: "Эксклюзивные свадебные приглашения с золотым тиснением"
   },
   {
     id: 5,
-    title: "Сеть магазинов 'Московский'",
+    title: "Сеть магазинов 'Toshkent'",
     category: "Рекламные материалы",
     image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80",
     description: "Листовки, баннеры, наклейки для сети магазинов"
   },
   {
     id: 6,
-    title: "Образовательный центр 'Знание'",
+    title: "Образовательный центр 'Bilim'",
     category: "Учебные материалы",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80",
     description: "Учебные пособия, сертификаты, дипломы"
@@ -313,24 +303,24 @@ export const portfolioItems = [
 export const testimonials = [
   {
     id: 1,
-    name: "Александр Петров",
-    company: "Ресторан 'Москва'",
+    name: "Jasur Karimov",
+    company: "Ресторан 'Toshkent'",
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80",
     text: "Отличное качество печати и быстрое выполнение заказа. Меню получились очень красивыми! Работаем уже 3 года.",
     rating: 5
   },
   {
     id: 2,
-    name: "Елена Смирнова",
-    company: "IT компания 'TechMoscow'",
+    name: "Dilnoza Islomova",
+    company: "IT компания 'TechTashkent'",
     avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b1e0?w=100&q=80",
     text: "Профессиональный подход к работе. Помогли с дизайном корпоративной айдентики. Печать визиток в день заказа - это просто фантастика!",
     rating: 5
   },
   {
     id: 3,
-    name: "Михаил Козлов",
-    company: "Медицинский центр 'Здоровье'",
+    name: "Bekzod Kadirov",
+    company: "Медицинский центр 'Salomatlik'",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80",
     text: "Сотрудничаем уже 5 лет. Всегда качественно и в срок. Собственные дизайнеры - это большой плюс. Рекомендую!",
     rating: 5
@@ -340,7 +330,7 @@ export const testimonials = [
 export const faqItems = [
   {
     id: 1,
-    question: "Чем отличается ваша типография от других в Москве?",
+    question: "Чем отличается ваша типография от других в Ташкенте?",
     answer: "Наша типография специализируется на срочной печати полиграфии — от визиток до каталогов. Мы предлагаем оперативную полиграфию на заказ по доступным ценам, без потери качества. Работаем с 2005 года и имеем собственный штат дизайнеров."
   },
   {
@@ -351,17 +341,17 @@ export const faqItems = [
   {
     id: 3,
     question: "Какие виды продукции вы печатаете на заказ?",
-    answer: "Типография «Полиграфи» выполняет печать листовок, буклетов, брошюр, упаковки и другой полиграфии на заказ. Работы подбираются индивидуально под ваш бизнес. Полный список включает более 40 видов продукции."
+    answer: "Типография «Grafix» выполняет печать листовок, буклетов, брошюр, упаковки и другой полиграфии на заказ. Работы подбираются индивидуально под ваш бизнес. Полный список включает более 40 видов продукции."
   },
   {
     id: 4,
     question: "Какие технологии используются для оперативной полиграфии?",
-    answer: "Мы применяем цифровую печать — идеальное решение для срочной полиграфии в Москве. Такой подход позволяет быстро запустить тираж с минимальными затратами. Также используем офсетную печать для больших тиражей."
+    answer: "Мы применяем цифровую печать — идеальное решение для срочной полиграфии в Ташкенте. Такой подход позволяет быстро запустить тираж с минимальными затратами. Также используем офсетную печать для больших тиражей."
   },
   {
     id: 5,
     question: "Можно ли у вас заказать полиграфию недорого?",
-    answer: "Да, у нас действует прозрачная система расчета. Предлагаем услуги печати по конкурентным ценам — это отличное решение, если нужна недорогая полиграфия в Москве. Есть система скидок для постоянных клиентов."
+    answer: "Да, у нас действует прозрачная система расчета. Предлагаем услуги печати по конкурентным ценам — это отличное решение, если нужна недорогая полиграфия в Ташкенте. Есть система скидок для постоянных клиентов."
   },
   {
     id: 6,
@@ -380,8 +370,8 @@ export const faqItems = [
   },
   {
     id: 9,
-    question: "Как осуществляется доставка по Москве?",
-    answer: "Наши курьеры доставят заказ в любую точку Москвы. Стоимость доставки: менее 3 кг - 450 руб., автомобильная доставка в пределах ТТК - 1500 руб., в пределах МКАД - 2000 руб."
+    question: "Как осуществляется доставка по Ташкенту?",
+    answer: "Наши курьеры доставят заказ в любую точку Ташкента. Стоимость доставки уточняйте у менеджера."
   },
   {
     id: 10,
@@ -440,18 +430,18 @@ export const navigationItems = [
 ];
 
 export const socialLinks = [
-  { name: "Instagram", url: "https://instagram.com/poligrafi_moscow", icon: "Instagram" },
-  { name: "WhatsApp", url: "https://wa.me/79150678261", icon: "MessageCircle" },
-  { name: "Facebook", url: "https://facebook.com/poligrafi.moscow", icon: "Facebook" },
-  { name: "LinkedIn", url: "https://linkedin.com/company/poligrafi-moscow", icon: "Linkedin" }
+  { name: "Instagram", url: "https://instagram.com/grafix_tashkent", icon: "Instagram" },
+  { name: "WhatsApp", url: "https://wa.me/998901234567", icon: "MessageCircle" },
+  { name: "Facebook", url: "https://facebook.com/grafix.tashkent", icon: "Facebook" },
+  { name: "LinkedIn", url: "https://linkedin.com/company/grafix-tashkent", icon: "Linkedin" }
 ];
 
 export const seoKeywords = [
-  "типография москва", "печать визиток", "срочная печать", "полиграфия на заказ",
+  "типография ташкент", "печать визиток", "срочная печать", "полиграфия на заказ",
   "цифровая печать", "офсетная печать", "печать листовок", "печать брошюр",
   "печать буклетов", "печать календарей", "печать наклеек", "дизайн полиграфии",
-  "доставка полиграфии", "недорогая полиграфия", "полиграфия москва",
-  "типография волгоградский проспект", "срочная полиграфия москва"
+  "доставка полиграфии", "недорогая полиграфия", "полиграфия ташкент",
+  "типография ойбек", "срочная полиграфия ташкент"
 ];
 
 export const blogPosts = [

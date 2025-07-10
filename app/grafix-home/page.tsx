@@ -12,7 +12,7 @@ export default function GrafixHomePage() {
   const companyInfo = {
     name: "Типография Grafix",
     phone: "+998 99 130-50-00",
-    email: "info@grafix.uz",
+    email: "t.me/mediamaxuzb",
     address: "г. Ташкент, Улица Турккургон",
     workingHours: "Пн-Пт с 10:00 до 18:00"
   }

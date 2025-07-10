@@ -106,18 +106,6 @@ export default function ContactForm() {
           </div>
 
           <div>
-            <Label htmlFor="email">Email</Label>
-            <Input
-              id="email"
-              type="email"
-              placeholder="your@email.com"
-              value={formData.email}
-              onChange={(e: React.ChangeEvent<HTMLInputElement>) => handleInputChange('email', e.target.value)}
-              className="mt-1"
-            />
-          </div>
-
-          <div>
             <Label htmlFor="service">Услуга</Label>
             <Select onValueChange={(value: string) => handleInputChange('service', value)}>
               <SelectTrigger className="mt-1">
@@ -175,11 +163,13 @@ export default function ContactForm() {
                 {companyInfo.phone}
               </a>
               <a 
-                href={`mailto:${companyInfo.email}`}
+                href="https://t.me/mediamaxuzb"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center text-blue-600 hover:text-blue-700 text-sm"
               >
                 <Mail className="h-4 w-4 mr-1" />
-                {companyInfo.email}
+                t.me/mediamaxuzb
               </a>
             </div>
           </div>

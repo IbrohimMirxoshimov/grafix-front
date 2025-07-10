@@ -20,7 +20,7 @@
       {
         "title": "Отправьте письмо на e-mail",
         "description": "Отправьте письмо с техническим заданием",
-        "email": "info@grafix.uz",
+        "telegram": "t.me/mediamaxuzb",
         "processing_time": "15 мин",
         "processing_label": "Среднее время обработки:",
         "icon": "email"

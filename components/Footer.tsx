@@ -103,7 +103,7 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <Mail className="h-4 w-4 mt-1 text-blue-400 flex-shrink-0" />
                 <div>
-                  <p className="text-gray-300 text-sm">{companyInfo.email}</p>
+                  <p className="text-gray-300 text-sm">t.me/mediamaxuzb</p>
                 </div>
               </div>
               

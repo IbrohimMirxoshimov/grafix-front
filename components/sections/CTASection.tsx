@@ -62,10 +62,10 @@ export default function CTASection() {
                   <div>
                     <h4 className="font-semibold text-white mb-1">Email</h4>
                     <a 
-                      href={`mailto:${companyInfo.email}`}
+                      href="https://t.me/mediamaxuzb"
                       className="text-blue-100 hover:text-white transition-colors"
                     >
-                      {companyInfo.email}
+                      t.me/mediamaxuzb
                     </a>
                   </div>
                 </div>

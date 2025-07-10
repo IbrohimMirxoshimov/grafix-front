@@ -27,7 +27,7 @@ export default function GrafixHeader() {
             </div>
             <div className="flex items-center gap-1">
               <Mail size={14} />
-              <a href="mailto:info@grafix.uz" className="hover:text-blue-200">
+              <a href="https://t.me/mediamaxuzb" className="hover:text-blue-200">
                 info@grafix.uz
               </a>
             </div>

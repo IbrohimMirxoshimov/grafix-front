@@ -42,8 +42,8 @@ export default function ServicesSection() {
             
             return (
               <Card key={service.id} className="group hover:shadow-xl transition-all duration-300 border-0 shadow-md hover:-translate-y-1">
-                <CardHeader className="pb-4">
-                  <div className="relative h-48 mb-4 rounded-lg overflow-hidden">
+                <CardHeader className="pb-1 px-2 pt-2">
+                  <div className="relative h-36 mb-2 rounded-lg overflow-hidden">
                     <Image
                       src={service.image}
                       alt={service.title}
@@ -51,20 +51,20 @@ export default function ServicesSection() {
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-                    <div className="absolute top-4 left-4">
-                      <div className="bg-white/90 backdrop-blur-sm p-2 rounded-lg">
+                    <div className="absolute top-2 left-2">
+                      <div className="bg-white/90 backdrop-blur-sm p-1 rounded-lg">
                         <IconComponent className="h-6 w-6 text-blue-600" />
                       </div>
                     </div>
                     {service.urgent && (
-                      <div className="absolute top-4 right-4">
-                        <Badge variant="destructive" className="bg-red-500 text-white">
+                      <div className="absolute top-2 right-2">
+                        <Badge variant="destructive" className="bg-red-500 text-white px-2 py-0.5 text-xs">
                           Срочно
                         </Badge>
                       </div>
                     )}
                   </div>
-                  <h3 className="text-xl font-bold text-gray-900 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors mb-1">
                     {service.title}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
@@ -72,8 +72,8 @@ export default function ServicesSection() {
                   </p>
                 </CardHeader>
 
-                <CardContent className="pt-0">
-                  <div className="space-y-3">
+                <CardContent className="pt-0 px-2 pb-1">
+                  <div className="space-y-2">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center text-sm text-gray-500">
                         <Clock className="h-4 w-4 mr-1" />
@@ -81,7 +81,7 @@ export default function ServicesSection() {
                       </div>
                     </div>
                     
-                    <ul className="space-y-1">
+                    <ul className="space-y-0.5">
                       {service.features.slice(0, 3).map((feature, index) => (
                         <li key={index} className="text-sm text-gray-600 flex items-center">
                           <div className="w-1.5 h-1.5 bg-blue-600 rounded-full mr-2 flex-shrink-0"></div>
@@ -97,8 +97,8 @@ export default function ServicesSection() {
                   </div>
                 </CardContent>
 
-                <CardFooter className="pt-0">
-                  <Button asChild className="w-full group-hover:bg-blue-700 transition-colors">
+                <CardFooter className="pt-0 px-2 pb-2">
+                  <Button asChild className="w-full group-hover:bg-blue-700 transition-colors py-1.5">
                     <Link href={`/services/${service.id}`} className="flex items-center justify-center">
                       Подробнее
                       <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

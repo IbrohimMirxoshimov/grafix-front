@@ -144,33 +144,120 @@ export const promotions = [
 const BASE_URL = "https://www.poligrafi.com";
 
 export const products = [
-  { title: "POS материалы", image: `${BASE_URL}/upload/uf/07f/pos.svg` },
-  { title: "Листовки", image: `${BASE_URL}/upload/uf/f4b/listovki.svg` },
-  { title: "Брошюры", image: `${BASE_URL}/upload/uf/002/broshur.svg` },
-  { title: "Блокноты", image: `${BASE_URL}/upload/uf/69d/bloknot.svg` },
-  { title: "Визитки", image: `${BASE_URL}/upload/uf/78f/vizitki.svg` },
-  { title: "Буклеты", image: `${BASE_URL}/upload/uf/293/buklet.svg` },
+  {
+    title: "POS материалы",
+    slug: "pos-materialy",
+    images: [
+      { src: `${BASE_URL}/upload/uf/07f/pos.svg`, alt: "POS материалы" },
+    ],
+    description: "POS материалы для эффективного продвижения товаров в местах продаж.",
+  },
+  {
+    title: "Листовки",
+    slug: "listovki",
+    images: [
+      { src: `${BASE_URL}/upload/uf/f4b/listovki.svg`, alt: "Листовки" },
+    ],
+    description: "Яркие листовки для рекламы и информирования клиентов.",
+  },
+  {
+    title: "Брошюры",
+    slug: "broshury",
+    images: [{ src: `${BASE_URL}/upload/uf/002/broshur.svg`, alt: "Брошюры" }],
+    description: "Брошюры для презентации товаров и услуг вашей компании.",
+  },
+  {
+    title: "Блокноты",
+    slug: "bloknoty",
+    images: [{ src: `${BASE_URL}/upload/uf/69d/bloknot.svg`, alt: "Блокноты" }],
+    description: "Блокноты с логотипом для офиса и подарков.",
+  },
+  {
+    title: "Визитки",
+    slug: "vizitki",
+    images: [{ src: `${BASE_URL}/upload/uf/78f/vizitki.svg`, alt: "Визитки" }],
+    description: "Профессиональные визитки различных форматов и материалов.",
+  },
+  {
+    title: "Буклеты",
+    slug: "buklety",
+    images: [{ src: `${BASE_URL}/upload/uf/293/buklet.svg`, alt: "Буклеты" }],
+    description: "Буклеты для эффективной презентации информации.",
+  },
   {
     title: "Меню для ресторанов",
-    image: `${BASE_URL}/upload/uf/358/menu.svg`,
+    slug: "menu-dlya-restoranov",
+    images: [
+      { src: `${BASE_URL}/upload/uf/358/menu.svg`, alt: "Меню для ресторанов" },
+    ],
+    description: "Меню для ресторанов и кафе с индивидуальным дизайном.",
   },
   {
     title: "Дипломы и сертификаты",
-    image: `${BASE_URL}/upload/uf/2bb/diplom.svg`,
+    slug: "diplomy-i-sertifikaty",
+    images: [
+      {
+        src: `${BASE_URL}/upload/uf/2bb/diplom.svg`,
+        alt: "Дипломы и сертификаты",
+      },
+    ],
+    description: "Дипломы и сертификаты для награждения и поощрения.",
   },
-  { title: "Календари", image: `${BASE_URL}/upload/uf/ced/calenda.svg` },
-  { title: "Каталоги", image: `${BASE_URL}/upload/uf/b9b/catalog.svg` },
-  { title: "Книги", image: `${BASE_URL}/upload/uf/9c1/book.svg` },
+  {
+    title: "Календари",
+    slug: "kalendari",
+    images: [
+      { src: `${BASE_URL}/upload/uf/ced/calenda.svg`, alt: "Календари" },
+    ],
+    description: "Настенные и настольные календари с вашим дизайном.",
+  },
+  {
+    title: "Каталоги",
+    slug: "katalogi",
+    images: [{ src: `${BASE_URL}/upload/uf/b9b/catalog.svg`, alt: "Каталоги" }],
+    description: "Каталоги для представления ассортимента продукции.",
+  },
+  {
+    title: "Книги",
+    slug: "knigi",
+    images: [{ src: `${BASE_URL}/upload/uf/9c1/book.svg`, alt: "Книги" }],
+    description: "Печать книг в мягком и твердом переплете.",
+  },
   {
     title: "Наклейки, стикеры",
-    image: `${BASE_URL}/upload/uf/b0d/naklej.svg`,
+    slug: "nakleyki-stikery",
+    images: [
+      { src: `${BASE_URL}/upload/uf/b0d/naklej.svg`, alt: "Наклейки, стикеры" },
+    ],
+    description: "Наклейки и стикеры любых форм и размеров.",
   },
-  { title: "Открытки", image: `${BASE_URL}/upload/uf/74b/postcard.svg` },
-  { title: "Пакеты", image: `${BASE_URL}/upload/uf/a85/paket.svg` },
-  { title: "Папки", image: `${BASE_URL}/upload/uf/ba9/papki.svg` },
+  {
+    title: "Открытки",
+    slug: "otkrytki",
+    images: [
+      { src: `${BASE_URL}/upload/uf/74b/postcard.svg`, alt: "Открытки" },
+    ],
+    description: "Открытки для поздравлений и приглашений.",
+  },
+  {
+    title: "Пакеты",
+    slug: "pakety",
+    images: [{ src: `${BASE_URL}/upload/uf/a85/paket.svg`, alt: "Пакеты" }],
+    description: "Фирменные пакеты для упаковки и рекламы.",
+  },
+  {
+    title: "Папки",
+    slug: "papki",
+    images: [{ src: `${BASE_URL}/upload/uf/ba9/papki.svg`, alt: "Папки" }],
+    description: "Папки для документов с логотипом компании.",
+  },
   {
     title: "Плакаты и постеры",
-    image: `${BASE_URL}/upload/uf/5dd/plakat.svg`,
+    slug: "plakaty-i-postery",
+    images: [
+      { src: `${BASE_URL}/upload/uf/5dd/plakat.svg`, alt: "Плакаты и постеры" },
+    ],
+    description: "Плакаты и постеры для рекламы и оформления интерьера.",
   },
 ];
 
@@ -196,6 +283,13 @@ export const services = [
   {
     id: 1,
     title: "Визитки",
+    slug: "vizitki",
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=400&q=80",
+        alt: "Визитки",
+      },
+    ],
     description: "Профессиональные визитки различных форматов и материалов",
     icon: "CreditCard",
     features: [
@@ -205,13 +299,18 @@ export const services = [
       "Скругленные углы",
     ],
     deliveryTime: "1 день",
-    image:
-      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=400&q=80",
     urgent: true,
   },
   {
     id: 2,
     title: "Листовки и флаеры",
+    slug: "listovki-i-flaery",
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&q=80",
+        alt: "Листовки и флаеры",
+      },
+    ],
     description: "Яркие рекламные материалы для продвижения вашего бизнеса",
     icon: "FileText",
     features: [
@@ -221,13 +320,18 @@ export const services = [
       "Быстрый тираж",
     ],
     deliveryTime: "1 день",
-    image:
-      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&q=80",
     urgent: true,
   },
   {
     id: 3,
     title: "Брошюры и каталоги",
+    slug: "broshury-i-katalogi",
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
+        alt: "Брошюры и каталоги",
+      },
+    ],
     description: "Качественные брошюры для презентации товаров и услуг",
     icon: "Book",
     features: [
@@ -237,12 +341,17 @@ export const services = [
       "Сшивка на скобу/пружину",
     ],
     deliveryTime: "2-3 дня",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80",
   },
   {
     id: 4,
     title: "Календари",
+    slug: "kalendari",
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80",
+        alt: "Календари",
+      },
+    ],
     description: "Настенные и настольные календари с вашим дизайном",
     icon: "Calendar",
     features: [
@@ -252,32 +361,47 @@ export const services = [
       "Индивидуальный дизайн",
     ],
     deliveryTime: "3-5 дней",
-    image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&q=80",
   },
   {
     id: 5,
     title: "Баннеры и вывески",
+    slug: "bannery-i-vyveski",
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?w=400&q=80",
+        alt: "Баннеры и вывески",
+      },
+    ],
     description: "Широкоформатная печать для наружной рекламы",
     icon: "Monitor",
     features: ["Баннерная ткань", "Пленка", "Интерьерная печать", "Ламинация"],
     deliveryTime: "2-3 дня",
-    image:
-      "https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?w=400&q=80",
   },
   {
     id: 6,
     title: "Упаковка",
+    slug: "upakovka",
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80",
+        alt: "Упаковка",
+      },
+    ],
     description: "Дизайн и печать упаковочных материалов",
     icon: "Package",
     features: ["Коробки", "Пакеты", "Этикетки", "Индивидуальный дизайн"],
     deliveryTime: "3-5 дней",
-    image:
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80",
   },
   {
     id: 7,
     title: "Наклейки и этикетки",
+    slug: "nakleyki-i-etiketki",
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
+        alt: "Наклейки и этикетки",
+      },
+    ],
     description: "Самоклеящиеся материалы любых размеров и форм",
     icon: "Tag",
     features: [
@@ -287,23 +411,33 @@ export const services = [
       "Индивидуальные размеры",
     ],
     deliveryTime: "1-2 дня",
-    image:
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
     urgent: true,
   },
   {
     id: 8,
     title: "Канцелярия",
+    slug: "kancelyariya",
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80",
+        alt: "Канцелярия",
+      },
+    ],
     description: "Фирменная канцелярия для вашего офиса",
     icon: "Paperclip",
     features: ["Бланки", "Папки", "Блокноты", "Ручки с логотипом"],
     deliveryTime: "2-4 дня",
-    image:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80",
   },
   {
     id: 9,
     title: "Меню для ресторанов",
+    slug: "menu-dlya-restoranov",
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80",
+        alt: "Меню для ресторанов",
+      },
+    ],
     description: "Профессиональные меню для кафе и ресторанов",
     icon: "Utensils",
     features: [
@@ -313,18 +447,21 @@ export const services = [
       "Индивидуальный дизайн",
     ],
     deliveryTime: "2-3 дня",
-    image:
-      "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80",
   },
   {
     id: 10,
     title: "Пластиковые карты",
+    slug: "plastikovye-karty",
+    images: [
+      {
+        src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80",
+        alt: "Пластиковые карты",
+      },
+    ],
     description: "Дисконтные и подарочные карты из пластика",
     icon: "CreditCard",
     features: ["Пластик 0.76мм", "Печать Silk", "Штрих-код", "Магнитная лента"],
     deliveryTime: "5-7 дней",
-    image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80",
   },
 ];
 
@@ -480,32 +617,12 @@ export const navigationItems = [
   {
     title: "Продукция",
     href: "/products",
-    submenu: [
-      { title: "Визитки", href: "/products/business-cards" },
-      { title: "Листовки", href: "/products/flyers" },
-      { title: "Брошюры", href: "/products/brochures" },
-      { title: "Календари", href: "/products/calendars" },
-      { title: "Баннеры", href: "/products/banners" },
-      { title: "Упаковка", href: "/products/packaging" },
-      { title: "Наклейки", href: "/products/stickers" },
-      { title: "Меню", href: "/products/menu" },
-    ],
+    submenu: products.map((p) => ({ title: p.title, href: `/products/${p.slug}` })),
   },
   {
     title: "Услуги",
     href: "/services",
-    submenu: [
-      { title: "Цифровая печать", href: "/services/digital-print" },
-      { title: "Офсетная печать", href: "/services/offset-print" },
-      { title: "Широкоформатная печать", href: "/services/large-format" },
-      { title: "Дизайн полиграфии", href: "/services/design" },
-      { title: "Брошюровка", href: "/services/binding" },
-      { title: "Ламинирование", href: "/services/lamination" },
-    ],
-  },
-  {
-    title: "Цены",
-    href: "/prices",
+    submenu: services.map((s) => ({ title: s.title, href: `/services/${s.slug}` })),
   },
   {
     title: "Портфолио",

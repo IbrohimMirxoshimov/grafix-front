@@ -33,12 +33,12 @@ export default function ProductsSection() {
             >
               <CardContent className="p-4 text-center">
                 <div className="w-12 h-12 mx-auto mb-3 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300 overflow-hidden">
-                  {product.image ? (
+                  {product.images[0].src ? (
                     <img
                       style={{
                         filter: "sepia(1) saturate(1000%) hue-rotate(180deg)",
                       }}
-                      src={product.image}
+                      src={product.images[0].src}
                       alt={product.title}
                       className="object-contain w-8 h-8 mx-auto"
                       loading="lazy"
